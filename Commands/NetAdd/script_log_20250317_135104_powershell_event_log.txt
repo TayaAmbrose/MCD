@@ -1,0 +1,170 @@
+--- PowerShell Event Log started at 3/17/2025 1:51:06 PM ---
+Event ID: 40961
+Level: Information
+Time Created: 3/17/2025 1:51:04 PM
+Message: PowerShell console is starting up
+---------------------------------------------------
+Event ID: 53504
+Level: Information
+Time Created: 3/17/2025 1:51:05 PM
+Message: Windows PowerShell has started an IPC listening thread on process: 5216 in AppDomain: DefaultAppDomain.
+---------------------------------------------------
+Event ID: 40962
+Level: Information
+Time Created: 3/17/2025 1:51:05 PM
+Message: PowerShell console is ready for user input
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:51:05 PM
+Message: CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Version"; value="1.0"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 703c5766-dad7-478e-8941-f47cccce30d1
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = bd7409b7-fe9c-4a16-8fd8-b1c0442b6067
+        Pipeline ID = 2
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 16
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:51:05 PM
+Message: CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Version"; value="1.0"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 703c5766-dad7-478e-8941-f47cccce30d1
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = bd7409b7-fe9c-4a16-8fd8-b1c0442b6067
+        Pipeline ID = 2
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 18
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:51:05 PM
+Message: CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Version"; value="1.0"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 703c5766-dad7-478e-8941-f47cccce30d1
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = bd7409b7-fe9c-4a16-8fd8-b1c0442b6067
+        Pipeline ID = 2
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 20
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:51:05 PM
+Message: CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Version"; value="1.0"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 703c5766-dad7-478e-8941-f47cccce30d1
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = bd7409b7-fe9c-4a16-8fd8-b1c0442b6067
+        Pipeline ID = 2
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 22
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:51:05 PM
+Message: CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="At C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1:1 char:35
++ net user newuser newpassword /add & net localgroup admins newuser /ad ...
++                                   ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quotation marks ("&") to pass it as part of a string."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 703c5766-dad7-478e-8941-f47cccce30d1
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = bd7409b7-fe9c-4a16-8fd8-b1c0442b6067
+        Pipeline ID = 2
+        Command Name = Out-Default
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 24
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+--- PowerShell Event Log ended at 3/17/2025 1:51:06 PM ---

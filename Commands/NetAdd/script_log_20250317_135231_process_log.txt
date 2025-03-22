@@ -1,0 +1,18 @@
+--- Process Log started at 3/17/2025 1:52:31 PM ---
+User: vagrant
+Machine: DC
+Script: C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1
+PID (LogGetter): 5804
+Command Line: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1"
+Start Time (Script Execution): 3/17/2025 1:52:31 PM
+ERROR: At C:\Users\vagrant\Downloads\Commands2\NetAdd\NetAdd.ps1:1 char:35
+ERROR: + net user newuser newpassword /add & net localgroup admins newuser /ad ...
+ERROR: +                                   ~
+ERROR: The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double 
+ERROR: quotation marks ("&") to pass it as part of a string.
+ERROR:     + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+ERROR:     + FullyQualifiedErrorId : AmpersandNotAllowed
+ERROR:  
+End Time (Script Execution): 3/17/2025 1:52:32 PM
+Exit Code: 1
+--- Process Log ended at 3/17/2025 1:52:32 PM ---
