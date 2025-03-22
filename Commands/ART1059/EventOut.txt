@@ -1,0 +1,483 @@
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:24:10 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Out-Default): "Out-Default"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 112
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:24:10.863801000Z" />
+    <EventRecordID>14092</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-38a8-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 112
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:24:10 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Invoke-Expression): "Invoke-Expression"
+ParameterBinding(Invoke-Expression): name="Command"; value="# Test download cradle
+write-host -ForegroundColor Cyan "$(Get-Date -Format s) Download Cradle test success!`n"
+"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = Invoke-Expression
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1059\MsXMLGetExec.ps1
+        Command Path = 
+        Sequence Number = 110
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:24:10.863733500Z" />
+    <EventRecordID>14091</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-3ba8-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = Invoke-Expression
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1059\MsXMLGetExec.ps1
+        Command Path = 
+        Sequence Number = 110
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Invoke-Expression): "Invoke-Expression"
+ParameterBinding(Invoke-Expression): name="Command"; value="# Test download cradle
+write-host -ForegroundColor Cyan "$(Get-Date -Format s) Download Cradle test success!`n"
+"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:24:10 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Write-Host): "Write-Host"
+ParameterBinding(Write-Host): name="ForegroundColor"; value="Cyan"
+ParameterBinding(Write-Host): name="Object"; value="2025-02-23T09:24:10 Download Cradle test success!
+"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 108
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:24:10.863652100Z" />
+    <EventRecordID>14090</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-3da8-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 108
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Write-Host): "Write-Host"
+ParameterBinding(Write-Host): name="ForegroundColor"; value="Cyan"
+ParameterBinding(Write-Host): name="Object"; value="2025-02-23T09:24:10 Download Cradle test success!
+"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:24:10 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-Date): "Get-Date"
+ParameterBinding(Get-Date): name="Format"; value="s"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = Get-Date
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 106
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:24:10.857049800Z" />
+    <EventRecordID>14089</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-3ca8-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = Get-Date
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 106
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-Date): "Get-Date"
+ParameterBinding(Get-Date): name="Format"; value="s"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:24:10 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="ComObject"; value="MsXml2.ServerXmlHttp"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1059\MsXMLGetExec.ps1
+        Command Path = 
+        Sequence Number = 104
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:24:10.601607800Z" />
+    <EventRecordID>14088</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-3aa8-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 47
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1059\MsXMLGetExec.ps1
+        Command Path = 
+        Sequence Number = 104
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="ComObject"; value="MsXml2.ServerXmlHttp"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:24:10 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 43
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 102
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:24:10.592289300Z" />
+    <EventRecordID>14087</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-1ca8-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 43
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 102
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+  </EventData>
+</Event>
