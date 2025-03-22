@@ -1,0 +1,164 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250222205430
+Username: SCCMLAB\vagrant
+RunAs User: SCCMLAB\vagrant
+Configuration Name: 
+Machine: DC (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5956
+PSVersion: 5.1.17763.6893
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.6893
+BuildVersion: 10.0.17763.6893
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.log
+
+
+    Directory: C:\Users\vagrant\Downloads\Commands\ART1083
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        2/22/2025   8:54 PM           2012 ListFolders.log
+-a----        2/22/2025   9:02 PM            743 ListFolders.ps1
+-a----        2/22/2025   9:25 PM              0 output.txt
+-a----        2/22/2025  11:27 AM            247 readme.txt
+
+
+
+
+    Directory: C:\Program Files
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       10/19/2023   5:17 AM                Common Files
+d-----        2/21/2025   1:43 PM                internet explorer
+d-----         5/1/2024   8:46 PM                PackageManagement
+d-----       10/19/2023   5:17 AM                VMware
+d-r---       10/19/2023   5:15 AM                Windows Defender
+d-----         2/8/2025   9:45 PM                Windows Defender Advanced Threat Protection
+d-----        11/5/2022  11:21 AM                Windows Mail
+d-----         2/8/2025   9:45 PM                Windows Media Player
+d-----        9/15/2018  12:19 AM                Windows Multimedia Platform
+d-----        9/15/2018  12:28 AM                windows nt
+d-----        11/5/2022  11:21 AM                Windows Photo Viewer
+d-----        9/15/2018  12:19 AM                Windows Portable Devices
+d-----        9/15/2018  12:19 AM                Windows Security
+d-----         5/1/2024   8:46 PM                WindowsPowerShell
+
+
+
+
+    Directory: C:\Program Files (x86)
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        9/15/2018  12:28 AM                Common Files
+d-----        2/21/2025   1:43 PM                Internet Explorer
+d-----        9/15/2018  12:19 AM                Microsoft.NET
+d-----        11/5/2022  11:21 AM                Windows Defender
+d-----        11/5/2022  11:21 AM                Windows Mail
+d-----         2/8/2025   9:45 PM                Windows Media Player
+d-----        9/15/2018  12:19 AM                Windows Multimedia Platform
+d-----        9/15/2018  12:28 AM                windows nt
+d-----        11/5/2022  11:21 AM                Windows Photo Viewer
+d-----        9/15/2018  12:19 AM                Windows Portable Devices
+d-----        9/15/2018  12:19 AM                WindowsPowerShell
+
+
+
+
+    Directory: C:\Users\Administrator\AppData\Local
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        9/15/2018  12:19 AM                Microsoft
+d-----         5/1/2024   9:34 PM                Temp
+
+
+
+
+    Directory: C:\Users\Administrator\AppData\Roaming
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d---s-        9/15/2018  12:28 AM                Microsoft
+
+
+
+
+    Directory: C:\Users\Public\Desktop
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        2/22/2025   8:27 PM           1350 VMware Shared Folders.lnk
+
+
+
+
+    Directory: C:\Users\vagrant\Downloads
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        2/22/2025   9:03 PM                Commands
+-a----        2/22/2025   8:43 PM            252 !safe_command!_output.txt
+-a----        2/22/2025   7:38 PM         224827 Invoke-Rubeus.ps1
+
+
+
+
+    Directory: C:\Users\vagrant\Documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         5/1/2024   8:46 PM                WindowsPowerShell
+
+
+
+
+    Directory: C:\Users\vagrant\AppData\Local
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       10/19/2023   4:47 AM                ConnectedDevicesPlatform
+d-----        2/22/2025   8:46 PM                D3DSCache
+d-----        2/22/2025   7:22 PM                IsolatedStorage
+d-----        2/22/2025   9:06 PM                Microsoft
+d-----        2/22/2025   7:31 PM                Microsoft_Corporation
+d-----         5/1/2024   8:46 PM                PackageManagement
+d-----       10/19/2023   4:47 AM                Packages
+d-----       10/19/2023   4:47 AM                PeerDistRepub
+d-----        2/22/2025   9:23 PM                Temp
+d-----         5/1/2024   6:59 PM                VirtualStore
+
+
+
+
+    Directory: C:\Users\vagrant\AppData\Roaming
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       10/19/2023   4:46 AM                Adobe
+d-----        2/22/2025   7:21 PM                IsolatedStorage
+d---s-         2/8/2025  11:50 PM                Microsoft
+d-----         5/1/2024   8:46 PM                NuGet
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20250222205430
+**********************

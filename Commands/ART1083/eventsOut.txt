@@ -1,0 +1,2070 @@
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-Content): "Get-Content"
+ParameterBinding(Get-Content): name="Path"; value="output.txt"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-Content
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 61
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.875677700Z" />
+    <EventRecordID>14119</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-2734-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-Content
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 61
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-Content): "Get-Content"
+ParameterBinding(Get-Content): name="Path"; value="output.txt"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/AppData/Roaming"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Adobe"
+ParameterBinding(Out-File): name="InputObject"; value="IsolatedStorage"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft"
+ParameterBinding(Out-File): name="InputObject"; value="NuGet"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 59
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.681961200Z" />
+    <EventRecordID>14118</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-2434-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 59
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/AppData/Roaming"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Adobe"
+ParameterBinding(Out-File): name="InputObject"; value="IsolatedStorage"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft"
+ParameterBinding(Out-File): name="InputObject"; value="NuGet"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/AppData/Local"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="ConnectedDevicesPlatform"
+ParameterBinding(Out-File): name="InputObject"; value="D3DSCache"
+ParameterBinding(Out-File): name="InputObject"; value="IsolatedStorage"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft_Corporation"
+ParameterBinding(Out-File): name="InputObject"; value="PackageManagement"
+ParameterBinding(Out-File): name="InputObject"; value="Packages"
+ParameterBinding(Out-File): name="InputObject"; value="PeerDistRepub"
+ParameterBinding(Out-File): name="InputObject"; value="Temp"
+ParameterBinding(Out-File): name="InputObject"; value="VirtualStore"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 57
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.677998600Z" />
+    <EventRecordID>14117</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-0438-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 57
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/AppData/Local"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="ConnectedDevicesPlatform"
+ParameterBinding(Out-File): name="InputObject"; value="D3DSCache"
+ParameterBinding(Out-File): name="InputObject"; value="IsolatedStorage"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft_Corporation"
+ParameterBinding(Out-File): name="InputObject"; value="PackageManagement"
+ParameterBinding(Out-File): name="InputObject"; value="Packages"
+ParameterBinding(Out-File): name="InputObject"; value="PeerDistRepub"
+ParameterBinding(Out-File): name="InputObject"; value="Temp"
+ParameterBinding(Out-File): name="InputObject"; value="VirtualStore"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/Documents"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="WindowsPowerShell"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 55
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.673507400Z" />
+    <EventRecordID>14116</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-0038-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 55
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/Documents"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="WindowsPowerShell"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/Downloads"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Commands"
+ParameterBinding(Out-File): name="InputObject"; value="!safe_command!_output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Invoke-Rubeus.ps1"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 53
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.671172600Z" />
+    <EventRecordID>14115</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-fc37-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 53
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/Downloads"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Commands"
+ParameterBinding(Out-File): name="InputObject"; value="!safe_command!_output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Invoke-Rubeus.ps1"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/Desktop"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 51
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.667607900Z" />
+    <EventRecordID>14114</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-fa37-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 51
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/vagrant/Desktop"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/AppData/Roaming"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Public\AppData\Roaming' because it does not exist."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 49
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.667068200Z" />
+    <EventRecordID>14113</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-f837-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 49
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/AppData/Roaming"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Public\AppData\Roaming' because it does not exist."
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/AppData/Local"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Public\AppData\Local' because it does not exist."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 47
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.666597200Z" />
+    <EventRecordID>14112</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-f637-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 47
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/AppData/Local"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Public\AppData\Local' because it does not exist."
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/Documents"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 45
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.666017700Z" />
+    <EventRecordID>14111</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-2234-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 45
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/Documents"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/Downloads"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 43
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.665024100Z" />
+    <EventRecordID>14110</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-2034-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 43
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/Downloads"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/Desktop"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="VMware Shared Folders.lnk"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 41
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.664048100Z" />
+    <EventRecordID>14109</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-f237-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 41
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Public/Desktop"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="VMware Shared Folders.lnk"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/AppData/Roaming"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\AppData\Roaming' because it does not exist."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 39
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.660704800Z" />
+    <EventRecordID>14108</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-f037-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 39
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/AppData/Roaming"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\AppData\Roaming' because it does not exist."
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/AppData/Local"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\AppData\Local' because it does not exist."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 37
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.659605400Z" />
+    <EventRecordID>14107</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-ee37-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 37
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/AppData/Local"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\AppData\Local' because it does not exist."
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/Documents"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\Documents' because it does not exist."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 35
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.659082900Z" />
+    <EventRecordID>14106</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-ec37-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 35
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/Documents"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\Documents' because it does not exist."
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/Downloads"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\Downloads' because it does not exist."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 33
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.658330700Z" />
+    <EventRecordID>14105</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-ea37-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 33
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/Downloads"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\Downloads' because it does not exist."
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/Desktop"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\Desktop' because it does not exist."
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 31
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.657329400Z" />
+    <EventRecordID>14104</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-e837-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 31
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\/Administrator/Desktop"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+NonTerminatingError(Get-ChildItem): "Access is denied"
+NonTerminatingError(Get-ChildItem): "Cannot find path 'C:\Users\Administrator\Desktop' because it does not exist."
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 29
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.649440900Z" />
+    <EventRecordID>14103</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-e637-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 29
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Users\"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Program Files (x86)"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Common Files"
+ParameterBinding(Out-File): name="InputObject"; value="Internet Explorer"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft.NET"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Defender"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Mail"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Media Player"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Multimedia Platform"
+ParameterBinding(Out-File): name="InputObject"; value="windows nt"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Photo Viewer"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Portable Devices"
+ParameterBinding(Out-File): name="InputObject"; value="WindowsPowerShell"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 27
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.648635900Z" />
+    <EventRecordID>14102</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-e337-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 27
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Program Files (x86)"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Common Files"
+ParameterBinding(Out-File): name="InputObject"; value="Internet Explorer"
+ParameterBinding(Out-File): name="InputObject"; value="Microsoft.NET"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Defender"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Mail"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Media Player"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Multimedia Platform"
+ParameterBinding(Out-File): name="InputObject"; value="windows nt"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Photo Viewer"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Portable Devices"
+ParameterBinding(Out-File): name="InputObject"; value="WindowsPowerShell"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Program Files"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Common Files"
+ParameterBinding(Out-File): name="InputObject"; value="internet explorer"
+ParameterBinding(Out-File): name="InputObject"; value="PackageManagement"
+ParameterBinding(Out-File): name="InputObject"; value="VMware"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Defender"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Defender Advanced Threat Protection"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Mail"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Media Player"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Multimedia Platform"
+ParameterBinding(Out-File): name="InputObject"; value="windows nt"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Photo Viewer"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Portable Devices"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Security"
+ParameterBinding(Out-File): name="InputObject"; value="WindowsPowerShell"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 25
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.643288200Z" />
+    <EventRecordID>14101</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-1c34-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 25
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:\Program Files"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="Common Files"
+ParameterBinding(Out-File): name="InputObject"; value="internet explorer"
+ParameterBinding(Out-File): name="InputObject"; value="PackageManagement"
+ParameterBinding(Out-File): name="InputObject"; value="VMware"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Defender"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Defender Advanced Threat Protection"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Mail"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Media Player"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Multimedia Platform"
+ParameterBinding(Out-File): name="InputObject"; value="windows nt"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Photo Viewer"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Portable Devices"
+ParameterBinding(Out-File): name="InputObject"; value="Windows Security"
+ParameterBinding(Out-File): name="InputObject"; value="WindowsPowerShell"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="eventsOut.txt"
+ParameterBinding(Out-File): name="InputObject"; value="ListFolders.log"
+ParameterBinding(Out-File): name="InputObject"; value="ListFolders.ps1"
+ParameterBinding(Out-File): name="InputObject"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="readme.txt"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 23
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.634924600Z" />
+    <EventRecordID>14100</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-de37-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ChildItem
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1
+        Command Path = 
+        Sequence Number = 23
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ChildItem): "Get-ChildItem"
+ParameterBinding(Get-ChildItem): name="Path"; value="C:"
+ParameterBinding(Get-ChildItem): name="ErrorAction"; value="SilentlyContinue"
+CommandInvocation(Out-File): "Out-File"
+ParameterBinding(Out-File): name="Append"; value="True"
+ParameterBinding(Out-File): name="FilePath"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="eventsOut.txt"
+ParameterBinding(Out-File): name="InputObject"; value="ListFolders.log"
+ParameterBinding(Out-File): name="InputObject"; value="ListFolders.ps1"
+ParameterBinding(Out-File): name="InputObject"; value="output.txt"
+ParameterBinding(Out-File): name="InputObject"; value="readme.txt"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Set-ExecutionPolicy): "Set-ExecutionPolicy"
+ParameterBinding(Set-ExecutionPolicy): name="Scope"; value="Process"
+ParameterBinding(Set-ExecutionPolicy): name="ExecutionPolicy"; value="Bypass"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Set-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 21
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.460138500Z" />
+    <EventRecordID>14099</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-d937-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Set-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 21
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Set-ExecutionPolicy): "Set-ExecutionPolicy"
+ParameterBinding(Set-ExecutionPolicy): name="Scope"; value="Process"
+ParameterBinding(Set-ExecutionPolicy): name="ExecutionPolicy"; value="Bypass"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ExecutionPolicy): "Get-ExecutionPolicy"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 18
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.445021500Z" />
+    <EventRecordID>14098</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-1b34-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = bf93773c-a6cc-4917-b7e8-d5ea48de0af6
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 456e43fe-32d8-47ea-9d94-8bdb65f62a61
+        Pipeline ID = 1
+        Command Name = Get-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 18
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ExecutionPolicy): "Get-ExecutionPolicy"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:35:56 PM
+Event ID:      4104
+Task Category: Execute a Remote Command
+Level:         Warning
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+Creating Scriptblock text (1 of 1):
+if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'
+
+ScriptBlock ID: cec00677-9ec6-4c0b-a38a-e83811abcaaf
+Path: 
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4104</EventID>
+    <Version>1</Version>
+    <Level>3</Level>
+    <Task>2</Task>
+    <Opcode>15</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:35:56.362683500Z" />
+    <EventRecordID>14097</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-d737-1f185c86db01}" />
+    <Execution ProcessID="7128" ThreadID="1932" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="MessageNumber">1</Data>
+    <Data Name="MessageTotal">1</Data>
+    <Data Name="ScriptBlockText">if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1083\ListFolders.ps1'</Data>
+    <Data Name="ScriptBlockId">cec00677-9ec6-4c0b-a38a-e83811abcaaf</Data>
+    <Data Name="Path">
+    </Data>
+  </EventData>
+</Event>
