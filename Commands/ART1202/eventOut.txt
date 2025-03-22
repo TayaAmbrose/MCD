@@ -1,0 +1,280 @@
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:38:34 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Out-Default): "Out-Default"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 07c58d50-ec00-4f00-a9bf-27032705b0ef
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = ed5d2690-92a0-4769-b6f8-5f183b316f9e
+        Pipeline ID = 1
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 23
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:38:34.657201400Z" />
+    <EventRecordID>14136</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-0639-1f185c86db01}" />
+    <Execution ProcessID="2016" ThreadID="3244" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 07c58d50-ec00-4f00-a9bf-27032705b0ef
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = ed5d2690-92a0-4769-b6f8-5f183b316f9e
+        Pipeline ID = 1
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 23
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:38:34 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Set-ExecutionPolicy): "Set-ExecutionPolicy"
+ParameterBinding(Set-ExecutionPolicy): name="Scope"; value="Process"
+ParameterBinding(Set-ExecutionPolicy): name="ExecutionPolicy"; value="Bypass"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 07c58d50-ec00-4f00-a9bf-27032705b0ef
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = ed5d2690-92a0-4769-b6f8-5f183b316f9e
+        Pipeline ID = 1
+        Command Name = Set-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 21
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:38:34.582221600Z" />
+    <EventRecordID>14135</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-9936-1f185c86db01}" />
+    <Execution ProcessID="2016" ThreadID="3244" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 07c58d50-ec00-4f00-a9bf-27032705b0ef
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = ed5d2690-92a0-4769-b6f8-5f183b316f9e
+        Pipeline ID = 1
+        Command Name = Set-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 21
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Set-ExecutionPolicy): "Set-ExecutionPolicy"
+ParameterBinding(Set-ExecutionPolicy): name="Scope"; value="Process"
+ParameterBinding(Set-ExecutionPolicy): name="ExecutionPolicy"; value="Bypass"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:38:34 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-ExecutionPolicy): "Get-ExecutionPolicy"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 07c58d50-ec00-4f00-a9bf-27032705b0ef
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = ed5d2690-92a0-4769-b6f8-5f183b316f9e
+        Pipeline ID = 1
+        Command Name = Get-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 18
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:38:34.576431600Z" />
+    <EventRecordID>14134</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-9836-1f185c86db01}" />
+    <Execution ProcessID="2016" ThreadID="3244" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 07c58d50-ec00-4f00-a9bf-27032705b0ef
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'
+        Engine Version = 5.1.17763.6893
+        Runspace ID = ed5d2690-92a0-4769-b6f8-5f183b316f9e
+        Pipeline ID = 1
+        Command Name = Get-ExecutionPolicy
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 18
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-ExecutionPolicy): "Get-ExecutionPolicy"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:38:34 PM
+Event ID:      4104
+Task Category: Execute a Remote Command
+Level:         Warning
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+Creating Scriptblock text (1 of 1):
+if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'
+
+ScriptBlock ID: c4ddf96f-69dd-4bf4-9679-6e22e924640e
+Path: 
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4104</EventID>
+    <Version>1</Version>
+    <Level>3</Level>
+    <Task>2</Task>
+    <Opcode>15</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:38:34.552733900Z" />
+    <EventRecordID>14133</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-0639-1f185c86db01}" />
+    <Execution ProcessID="2016" ThreadID="3244" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="MessageNumber">1</Data>
+    <Data Name="MessageTotal">1</Data>
+    <Data Name="ScriptBlockText">if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; &amp; 'C:\Users\vagrant\Downloads\Commands\ART1202\IndirectCommand.ps1'</Data>
+    <Data Name="ScriptBlockId">c4ddf96f-69dd-4bf4-9679-6e22e924640e</Data>
+    <Data Name="Path">
+    </Data>
+  </EventData>
+</Event>
