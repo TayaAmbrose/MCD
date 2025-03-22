@@ -1,0 +1,18 @@
+--- Process Log started at 3/17/2025 1:52:32 PM ---
+User: vagrant
+Machine: DC
+Script: C:\Users\vagrant\Downloads\Commands2\searchKB\searchKb.ps1
+PID (LogGetter): 5804
+Command Line: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\vagrant\Downloads\Commands2\searchKB\searchKb.ps1"
+Start Time (Script Execution): 3/17/2025 1:52:32 PM
+                           [01]: KB5049608
+                           [02]: KB4589208
+                           [03]: KB5012170
+                           [04]: KB5053596
+                           [05]: KB5020374
+                           [06]: KB5031589
+                           [07]: KB5050110
+                           [08]: KB5054007
+End Time (Script Execution): 3/17/2025 1:52:36 PM
+Exit Code: 0
+--- Process Log ended at 3/17/2025 1:52:36 PM ---

@@ -1,0 +1,1 @@
+systeminfo | findstr /C:"KB" /C:"Update"

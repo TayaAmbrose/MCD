@@ -1,0 +1,134 @@
+--- PowerShell Event Log started at 3/17/2025 1:52:36 PM ---
+Event ID: 40961
+Level: Information
+Time Created: 3/17/2025 1:52:32 PM
+Message: PowerShell console is starting up
+---------------------------------------------------
+Event ID: 53504
+Level: Information
+Time Created: 3/17/2025 1:52:32 PM
+Message: Windows PowerShell has started an IPC listening thread on process: 4832 in AppDomain: DefaultAppDomain.
+---------------------------------------------------
+Event ID: 40962
+Level: Information
+Time Created: 3/17/2025 1:52:32 PM
+Message: PowerShell console is ready for user input
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:52:35 PM
+Message: CommandInvocation(Out-String): "Out-String"
+ParameterBinding(Out-String): name="InputObject"; value=""
+ParameterBinding(Out-String): name="InputObject"; value="Host Name:                 DC"
+ParameterBinding(Out-String): name="InputObject"; value="OS Name:                   Microsoft Windows Server 2019 Datacenter"
+ParameterBinding(Out-String): name="InputObject"; value="OS Version:                10.0.17763 N/A Build 17763"
+ParameterBinding(Out-String): name="InputObject"; value="OS Manufacturer:           Microsoft Corporation"
+ParameterBinding(Out-String): name="InputObject"; value="OS Configuration:          Primary Domain Controller"
+ParameterBinding(Out-String): name="InputObject"; value="OS Build Type:             Multiprocessor Free"
+ParameterBinding(Out-String): name="InputObject"; value="Registered Owner:          "
+ParameterBinding(Out-String): name="InputObject"; value="Registered Organization:   Vagrant"
+ParameterBinding(Out-String): name="InputObject"; value="Product ID:                00430-93320-80362-AAOEM"
+ParameterBinding(Out-String): name="InputObject"; value="Original Install Date:     5/1/2024, 6:59:26 PM"
+ParameterBinding(Out-String): name="InputObject"; value="System Boot Time:          3/16/2025, 5:35:18 PM"
+ParameterBinding(Out-String): name="InputObject"; value="System Manufacturer:       VMware, Inc."
+ParameterBinding(Out-String): name="InputObject"; value="System Model:              VMware Virtual Platform"
+ParameterBinding(Out-String): name="InputObject"; value="System Type:               x64-based PC"
+ParameterBinding(Out-String): name="InputObject"; value="Processor(s):              2 Processor(s) Installed."
+ParameterBinding(Out-String): name="InputObject"; value="                           [01]: AMD64 Family 25 Model 117 Stepping 2 AuthenticAMD ~3992 Mhz"
+ParameterBinding(Out-String): name="InputObject"; value="                           [02]: AMD64 Family 25 Model 117 Stepping 2 AuthenticAMD ~3992 Mhz"
+ParameterBinding(Out-String): name="InputObject"; value="BIOS Version:              Phoenix Technologies LTD 6.00, 11/12/2020"
+ParameterBinding(Out-String): name="InputObject"; value="Windows Directory:         C:\Windows"
+ParameterBinding(Out-String): name="InputObject"; value="System Directory:          C:\Windows\system32"
+ParameterBinding(Out-String): name="InputObject"; value="Boot Device:               \Device\HarddiskVolume1"
+ParameterBinding(Out-String): name="InputObject"; value="System Locale:             en-us;English (United States)"
+ParameterBinding(Out-String): name="InputObject"; value="Input Locale:              en-us;English (United States)"
+ParameterBinding(Out-String): name="InputObject"; value="Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)"
+ParameterBinding(Out-String): name="InputObject"; value="Total Physical Memory:     3,999 MB"
+ParameterBinding(Out-String): name="InputObject"; value="Available Physical Memory: 2,062 MB"
+ParameterBinding(Out-String): name="InputObject"; value="Virtual Memory: Max Size:  4,703 MB"
+ParameterBinding(Out-String): name="InputObject"; value="Virtual Memory: Available: 2,803 MB"
+ParameterBinding(Out-String): name="InputObject"; value="Virtual Memory: In Use:    1,900 MB"
+ParameterBinding(Out-String): name="InputObject"; value="Page File Location(s):     C:\pagefile.sys"
+ParameterBinding(Out-String): name="InputObject"; value="Domain:                    sccm.lab"
+ParameterBinding(Out-String): name="InputObject"; value="Logon Server:              \\DC"
+ParameterBinding(Out-String): name="InputObject"; value="Hotfix(s):                 8 Hotfix(s) Installed."
+ParameterBinding(Out-String): name="InputObject"; value="                           [01]: KB5049608"
+ParameterBinding(Out-String): name="InputObject"; value="                           [02]: KB4589208"
+ParameterBinding(Out-String): name="InputObject"; value="                           [03]: KB5012170"
+ParameterBinding(Out-String): name="InputObject"; value="                           [04]: KB5053596"
+ParameterBinding(Out-String): name="InputObject"; value="                           [05]: KB5020374"
+ParameterBinding(Out-String): name="InputObject"; value="                           [06]: KB5031589"
+ParameterBinding(Out-String): name="InputObject"; value="                           [07]: KB5050110"
+ParameterBinding(Out-String): name="InputObject"; value="                           [08]: KB5054007"
+ParameterBinding(Out-String): name="InputObject"; value="Network Card(s):           2 NIC(s) Installed."
+ParameterBinding(Out-String): name="InputObject"; value="                           [01]: Intel(R) 82574L Gigabit Network Connection"
+ParameterBinding(Out-String): name="InputObject"; value="                                 Connection Name: Ethernet0"
+ParameterBinding(Out-String): name="InputObject"; value="                                 DHCP Enabled:    Yes"
+ParameterBinding(Out-String): name="InputObject"; value="                                 DHCP Server:     192.168.16.254"
+ParameterBinding(Out-String): name="InputObject"; value="                                 IP address(es)"
+ParameterBinding(Out-String): name="InputObject"; value="                                 [01]: 192.168.16.179"
+ParameterBinding(Out-String): name="InputObject"; value="                                 [02]: fe80::61e3:1d85:9be8:5f9f"
+ParameterBinding(Out-String): name="InputObject"; value="                           [02]: Intel(R) 82574L Gigabit Network Connection"
+ParameterBinding(Out-String): name="InputObject"; value="                                 Connection Name: Ethernet1"
+ParameterBinding(Out-String): name="InputObject"; value="                                 DHCP Enabled:    No"
+ParameterBinding(Out-String): name="InputObject"; value="                                 IP address(es)"
+ParameterBinding(Out-String): name="InputObject"; value="                                 [01]: 192.168.33.10"
+ParameterBinding(Out-String): name="InputObject"; value="                                 [02]: fe80::9bd7:da1a:ac56:53fb"
+ParameterBinding(Out-String): name="InputObject"; value="Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed."
+CommandInvocation(Out-String): "Out-String"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 8041cde3-4645-4dde-9ec7-b77bc9af5a00
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\searchKB\searchKb.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = c039b82c-b346-4a60-b95c-7e0bb10a3ae4
+        Pipeline ID = 1
+        Command Name = Out-String
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 16
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:52:35 PM
+Message: CommandInvocation(searchKb.ps1): "searchKb.ps1"
+CommandInvocation(Out-Default): "Out-Default"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 8041cde3-4645-4dde-9ec7-b77bc9af5a00
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\searchKB\searchKb.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = c039b82c-b346-4a60-b95c-7e0bb10a3ae4
+        Pipeline ID = 1
+        Command Name = searchKb.ps1
+        Command Type = ExternalScript
+        Script Name = 
+        Command Path = C:\Users\vagrant\Downloads\Commands2\searchKB\searchKb.ps1
+        Sequence Number = 18
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+--- PowerShell Event Log ended at 3/17/2025 1:52:36 PM ---
