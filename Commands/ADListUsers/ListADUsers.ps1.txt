@@ -1,0 +1,1211 @@
+Task ID: 20250223-GBCMNZ_1
+{
+  "task_id": "20250223-GBCMNZ_1",
+  "score": 7,
+  "signatures": [
+    {
+      "name": "susevent_adjustprivilegetoken",
+      "short_description": "Suspicious behavior detected: AdjustPrivilegeToken",
+      "description": "A privilege for an access token was adjusted. Windows uses the token to control the ability of the user to perform various system-related operations.",
+      "ttps": [],
+      "tags": [],
+      "family": "",
+      "iocs": {
+        "truncated": false,
+        "count": 1,
+        "iocs": [
+          {
+            "truncated": false,
+            "ioc": {
+              "process": "powershell.exe",
+              "process_id": 85
+            }
+          }
+        ]
+      },
+      "score": 1
+    },
+    {
+      "name": "registry_antivm_cpu_check",
+      "short_description": "Looks up CPU information in the registry",
+      "description": "Looks up registry value(s) which can often be used to detect a virtual environment.",
+      "ttps": [
+        "T1012",
+        "T1082",
+        "T1497.001"
+      ],
+      "tags": [],
+      "family": "",
+      "iocs": {
+        "truncated": false,
+        "count": 2,
+        "iocs": [
+          {
+            "truncated": false,
+            "ioc": {
+              "description": "Queried registry key value",
+              "value": "\\REGISTRY\\MACHINE\\HARDWARE\\DESCRIPTION\\System\\CentralProcessor\\0\\~MHz",
+              "process": "svchost.exe",
+              "process_id": 88
+            }
+          },
+          {
+            "truncated": false,
+            "ioc": {
+              "description": "Opened registry key",
+              "value": "\\Registry\\Machine\\HARDWARE\\DESCRIPTION\\System\\CentralProcessor\\0",
+              "process": "svchost.exe",
+              "process_id": 88
+            }
+          }
+        ]
+      },
+      "score": 7
+    },
+    {
+      "name": "files_drops_exe_user",
+      "short_description": "Drops file in user directory",
+      "description": "Drops file in user directory",
+      "ttps": [],
+      "tags": [],
+      "family": "",
+      "iocs": {
+        "truncated": false,
+        "count": 3,
+        "iocs": [
+          {
+            "truncated": false,
+            "ioc": {
+              "description": "Opened file for modifying",
+              "value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\PowerShell\\ModuleAnalysisCache",
+              "process": "powershell.exe",
+              "process_id": 85
+            }
+          },
+          {
+            "truncated": false,
+            "ioc": {
+              "description": "Created file",
+              "value": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\__PSScriptPolicyTest_mg0gqtzy.q2h.ps1",
+              "process": "powershell.exe",
+              "process_id": 85
+            }
+          },
+          {
+            "truncated": false,
+            "ioc": {
+              "description": "Created file",
+              "value": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\__PSScriptPolicyTest_yox532ve.g2w.psm1",
+              "process": "powershell.exe",
+              "process_id": 85
+            }
+          }
+        ]
+      },
+      "score": 6
+    },
+    {
+      "name": "files_drops_exe_general",
+      "short_description": "Drops executable file",
+      "description": "Drops executable file",
+      "ttps": [],
+      "tags": [],
+      "family": "",
+      "iocs": {
+        "truncated": false,
+        "count": 1,
+        "iocs": [
+          {
+            "truncated": false,
+            "ioc": {
+              "description": "Created file",
+              "value": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\__PSScriptPolicyTest_mg0gqtzy.q2h.ps1",
+              "process": "powershell.exe",
+              "process_id": 85
+            }
+          }
+        ]
+      },
+      "score": 6
+    }
+  ],
+  "ttps": [
+    {
+      "id": "T1082",
+      "name": "System Information Discovery",
+      "tactics": [
+        "Discovery"
+      ],
+      "reference": "https://attack.mitre.org/techniques/T1082",
+      "subtechniques": []
+    },
+    {
+      "id": "T1497.001",
+      "name": "System Checks",
+      "tactics": [
+        "Defense Evasion",
+        "Discovery"
+      ],
+      "reference": "https://attack.mitre.org/techniques/T1497/001",
+      "subtechniques": []
+    },
+    {
+      "id": "T1012",
+      "name": "Query Registry",
+      "tactics": [
+        "Discovery"
+      ],
+      "reference": "https://attack.mitre.org/techniques/T1012",
+      "subtechniques": []
+    }
+  ],
+  "tags": [],
+  "families": [],
+  "processes": {
+    "truncated": false,
+    "count": 2,
+    "process_list": [
+      {
+        "pid": 4520,
+        "ppid": 3116,
+        "procid": 85,
+        "parent_procid": 58,
+        "image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "name": "powershell.exe",
+        "commandline": "powershell -noexit -ExecutionPolicy bypass -File C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ListADUsers.ps1",
+        "tracked": true,
+        "injected": false,
+        "state": "running",
+        "start_ts": 297,
+        "end_ts": null
+      },
+      {
+        "pid": 4660,
+        "ppid": 572,
+        "procid": 88,
+        "parent_procid": 6,
+        "image": "\\??\\c:\\windows\\system32\\svchost.exe",
+        "name": "svchost.exe",
+        "commandline": "c:\\windows\\system32\\svchost.exe -k netsvcs",
+        "tracked": true,
+        "injected": false,
+        "state": "running",
+        "start_ts": 1422,
+        "end_ts": null
+      }
+    ]
+  },
+  "network": {
+    "host": [
+      "192.168.122.255",
+      "8.8.8.8",
+      "96.16.70.7",
+      "20.72.205.209",
+      "52.149.20.212",
+      "199.232.214.172"
+    ],
+    "udp": [
+      {
+        "ts": 1740349554.863192,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349554.863409,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349554.863594,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349555.631386,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349555.631427,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349555.631851,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349556.400358,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349557.150566,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349557.902636,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349558.076613,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349558.654505,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349558.788576,
+        "dstip": "8.8.8.8",
+        "dstport": 53,
+        "srcip": "192.168.122.50",
+        "srcport": 64192,
+        "size": 41
+      },
+      {
+        "ts": 1740349558.838953,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349559.417991,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 186
+      },
+      {
+        "ts": 1740349559.528787,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 201
+      },
+      {
+        "ts": 1740349559.589483,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349560.015198,
+        "dstip": "8.8.8.8",
+        "dstport": 53,
+        "srcip": "192.168.122.50",
+        "srcport": 49508,
+        "size": 49
+      },
+      {
+        "ts": 1740349560.047005,
+        "dstip": "192.168.122.50",
+        "dstport": 49508,
+        "srcip": "8.8.8.8",
+        "srcport": 53,
+        "size": 180
+      },
+      {
+        "ts": 1740349560.810979,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349560.926381,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 186
+      },
+      {
+        "ts": 1740349561.562563,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349562.315885,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349562.439581,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 186
+      },
+      {
+        "ts": 1740349562.496494,
+        "dstip": "8.8.8.8",
+        "dstport": 53,
+        "srcip": "192.168.122.50",
+        "srcport": 57357,
+        "size": 42
+      },
+      {
+        "ts": 1740349562.516462,
+        "dstip": "192.168.122.50",
+        "dstport": 57357,
+        "srcip": "8.8.8.8",
+        "srcport": 53,
+        "size": 112
+      },
+      {
+        "ts": 1740349563.015878,
+        "dstip": "8.8.8.8",
+        "dstport": 53,
+        "srcip": "192.168.122.50",
+        "srcport": 50030,
+        "size": 41
+      },
+      {
+        "ts": 1740349563.030262,
+        "dstip": "192.168.122.50",
+        "dstport": 50030,
+        "srcip": "8.8.8.8",
+        "srcport": 53,
+        "size": 209
+      },
+      {
+        "ts": 1740349563.952612,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 186
+      },
+      {
+        "ts": 1740349564.289467,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349565.047203,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349565.46257,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 198
+      },
+      {
+        "ts": 1740349565.821166,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 50
+      },
+      {
+        "ts": 1740349566.472675,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 198
+      },
+      {
+        "ts": 1740349567.480243,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 198
+      },
+      {
+        "ts": 1740349568.491305,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 198
+      },
+      {
+        "ts": 1740349569.492041,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349570.248106,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349571.026223,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349571.78311,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349572.551213,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349573.317891,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349574.100332,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349574.869201,
+        "dstip": "192.168.122.255",
+        "dstport": 137,
+        "srcip": "192.168.122.50",
+        "srcport": 137,
+        "size": 68
+      },
+      {
+        "ts": 1740349575.620677,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 186
+      },
+      {
+        "ts": 1740349575.620868,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 186
+      },
+      {
+        "ts": 1740349575.621975,
+        "dstip": "192.168.122.255",
+        "dstport": 138,
+        "srcip": "192.168.122.50",
+        "srcport": 138,
+        "size": 216
+      }
+    ],
+    "dns": {
+      "query": [
+        {
+          "ts": 1740349558.788576,
+          "dstip": "8.8.8.8",
+          "dstport": 53,
+          "srcip": "192.168.122.50",
+          "srcport": 64192,
+          "type": "A",
+          "name": "insiderppe.cloudapp.net"
+        },
+        {
+          "ts": 1740349560.015198,
+          "dstip": "8.8.8.8",
+          "dstport": 53,
+          "srcip": "192.168.122.50",
+          "srcport": 49508,
+          "type": "A",
+          "name": "settings-win.data.microsoft.com"
+        },
+        {
+          "ts": 1740349562.496494,
+          "dstip": "8.8.8.8",
+          "dstport": 53,
+          "srcip": "192.168.122.50",
+          "srcport": 57357,
+          "type": "A",
+          "name": "sls.update.microsoft.com"
+        },
+        {
+          "ts": 1740349563.015878,
+          "dstip": "8.8.8.8",
+          "dstport": 53,
+          "srcip": "192.168.122.50",
+          "srcport": 50030,
+          "type": "A",
+          "name": "ctldl.windowsupdate.com"
+        }
+      ],
+      "response": [
+        {
+          "ts": 1740349560.047005,
+          "dstip": "192.168.122.50",
+          "dstport": 49508,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "CNAME",
+          "data": "atm-settingsfe-prod-geo2.trafficmanager.net"
+        },
+        {
+          "ts": 1740349560.047005,
+          "dstip": "192.168.122.50",
+          "dstport": 49508,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "CNAME",
+          "data": "settings-prod-wus2-2.westus2.cloudapp.azure.com"
+        },
+        {
+          "ts": 1740349560.047005,
+          "dstip": "192.168.122.50",
+          "dstport": 49508,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "A",
+          "data": "20.72.205.209"
+        },
+        {
+          "ts": 1740349562.516462,
+          "dstip": "192.168.122.50",
+          "dstport": 57357,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "CNAME",
+          "data": "glb.sls.prod.dcat.dsp.trafficmanager.net"
+        },
+        {
+          "ts": 1740349562.516462,
+          "dstip": "192.168.122.50",
+          "dstport": 57357,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "A",
+          "data": "52.149.20.212"
+        },
+        {
+          "ts": 1740349563.030262,
+          "dstip": "192.168.122.50",
+          "dstport": 50030,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "CNAME",
+          "data": "ctldl.windowsupdate.com.delivery.microsoft.com"
+        },
+        {
+          "ts": 1740349563.030262,
+          "dstip": "192.168.122.50",
+          "dstport": 50030,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "CNAME",
+          "data": "wu-b-net.trafficmanager.net"
+        },
+        {
+          "ts": 1740349563.030262,
+          "dstip": "192.168.122.50",
+          "dstport": 50030,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "CNAME",
+          "data": "bg.microsoft.map.fastly.net"
+        },
+        {
+          "ts": 1740349563.030262,
+          "dstip": "192.168.122.50",
+          "dstport": 50030,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "A",
+          "data": "199.232.214.172"
+        },
+        {
+          "ts": 1740349563.030262,
+          "dstip": "192.168.122.50",
+          "dstport": 50030,
+          "srcip": "8.8.8.8",
+          "srcport": 53,
+          "type": "A",
+          "data": "199.232.210.172"
+        }
+      ]
+    },
+    "domain": [
+      "settings-win.data.microsoft.com",
+      "sls.update.microsoft.com",
+      "ctldl.windowsupdate.com"
+    ],
+    "tcp": [
+      {
+        "ts": 1740349556.46376,
+        "dstip": "96.16.70.7",
+        "dstport": 80,
+        "srcip": "192.168.122.50",
+        "srcport": 49676,
+        "tx_size": 1588,
+        "rx_size": 656
+      },
+      {
+        "ts": 1740349556.616306,
+        "dstip": "96.16.70.7",
+        "dstport": 80,
+        "srcip": "192.168.122.50",
+        "srcport": 49677,
+        "tx_size": 1594,
+        "rx_size": 656
+      },
+      {
+        "ts": 1740349560.207323,
+        "dstip": "20.72.205.209",
+        "dstport": 443,
+        "srcip": "192.168.122.50",
+        "srcport": 49682,
+        "tx_size": 1455,
+        "rx_size": 536
+      },
+      {
+        "ts": 1740349563.589256,
+        "dstip": "52.149.20.212",
+        "dstport": 443,
+        "srcip": "192.168.122.50",
+        "srcport": 49684,
+        "tx_size": 313,
+        "rx_size": 18079
+      },
+      {
+        "ts": 1740349563.034664,
+        "dstip": "199.232.214.172",
+        "dstport": 80,
+        "srcip": "192.168.122.50",
+        "srcport": 49685,
+        "tx_size": 330,
+        "rx_size": 201
+      }
+    ],
+    "http": [
+      {
+        "request": {
+          "version": "1.1",
+          "url": "http://go.microsoft.com/fwlink/?LinkID=252669&clcid=0x409",
+          "protocol": "http",
+          "method": "POST",
+          "headers": [
+            {
+              "key": "connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "content-type",
+              "value": "text/xml; charset=\"UTF-16LE\""
+            },
+            {
+              "key": "user-agent",
+              "value": "MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT"
+            },
+            {
+              "key": "soapaction",
+              "value": "\"http://schemas.microsoft.com/windowsmetadata/services/2007/09/18/dms/DeviceMetadataService/GetDeviceMetadata\""
+            },
+            {
+              "key": "content-length",
+              "value": "1244"
+            },
+            {
+              "key": "host",
+              "value": "go.microsoft.com"
+            }
+          ],
+          "length": 1244
+        },
+        "response": {
+          "version": "1.1",
+          "protocol": "http",
+          "status": 403,
+          "headers": [
+            {
+              "key": "server",
+              "value": "AkamaiGHost"
+            },
+            {
+              "key": "mime-version",
+              "value": "1.0"
+            },
+            {
+              "key": "content-type",
+              "value": "text/html"
+            },
+            {
+              "key": "content-length",
+              "value": "384"
+            },
+            {
+              "key": "expires",
+              "value": "Sun, 23 Feb 2025 22:25:56 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, no-cache, no-store"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "date",
+              "value": "Sun, 23 Feb 2025 22:25:56 GMT"
+            },
+            {
+              "key": "connection",
+              "value": "close"
+            }
+          ],
+          "length": 384
+        },
+        "ts": 1740349556.46376,
+        "srcip": "192.168.122.50",
+        "srcport": 49676,
+        "dstip": "96.16.70.7",
+        "dstport": 80
+      },
+      {
+        "request": {
+          "version": "1.1",
+          "url": "http://go.microsoft.com/fwlink/?LinkID=252669&clcid=0x409",
+          "protocol": "http",
+          "method": "POST",
+          "headers": [
+            {
+              "key": "connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "content-type",
+              "value": "text/xml; charset=\"UTF-16LE\""
+            },
+            {
+              "key": "user-agent",
+              "value": "MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT"
+            },
+            {
+              "key": "soapaction",
+              "value": "\"http://schemas.microsoft.com/windowsmetadata/services/2007/09/18/dms/DeviceMetadataService/GetDeviceMetadata\""
+            },
+            {
+              "key": "content-length",
+              "value": "1250"
+            },
+            {
+              "key": "host",
+              "value": "go.microsoft.com"
+            }
+          ],
+          "length": 1250
+        },
+        "response": {
+          "version": "1.1",
+          "protocol": "http",
+          "status": 403,
+          "headers": [
+            {
+              "key": "server",
+              "value": "AkamaiGHost"
+            },
+            {
+              "key": "mime-version",
+              "value": "1.0"
+            },
+            {
+              "key": "content-type",
+              "value": "text/html"
+            },
+            {
+              "key": "content-length",
+              "value": "384"
+            },
+            {
+              "key": "expires",
+              "value": "Sun, 23 Feb 2025 22:25:56 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, no-cache, no-store"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "date",
+              "value": "Sun, 23 Feb 2025 22:25:56 GMT"
+            },
+            {
+              "key": "connection",
+              "value": "close"
+            }
+          ],
+          "length": 384
+        },
+        "ts": 1740349556.616306,
+        "srcip": "192.168.122.50",
+        "srcport": 49677,
+        "dstip": "96.16.70.7",
+        "dstport": 80
+      },
+      {
+        "request": {
+          "version": "1.1",
+          "url": "https://settings-win.data.microsoft.com/settings/v2.0/WSD/WaaSAssessment?os=Windows&osVer=10.0.15063.0.amd64fre.rs2_release.170317-&ring=Retail&sku=48&deviceClass=Windows.Desktop&locale=en-US&deviceId=B2D5E662-8D2A-4D9F-9059-A164F212FB84&FlightRing=Retail&TelemetryLevel=3&GDataInstalledVer=0&HidOverGattReg=C%3A%5CWindows%5CSystem32%5CDriverStore%5CFileRepository%5Chidbthle.inf_amd64_792724380f6ef57c%5CMicrosoft.Bluetooth.Profiles.HidOverGatt.dll&AppVer=10.0&ChinaTypeApproval_CTA=&OEMModel=Standard%20PC%20%28Q35%20%2B%20ICH9%2C%202009%29&UpdateOfferedDays=2859&InstallDate=1738973936&OEMModelBaseBoard=&BranchReadinessLevel=CB&OEMSubModel=&FX_FlightIds=&DL_OSVersion=10.0.15063.0&IsDeviceRetailDemo=0&FlightingBranchName=&OSUILocale=en-US&BullguardInstalledKey=0&DeviceFamily=Windows.Desktop&WuClientVer=10.0.15063.0&IsFlightingEnabled=0&OSSkuId=48&App=WaaSAssessment&CurrentBranch=rs2_release&InstallLanguage=en-US&CrowdStrikeInstalledVer=0&HidparseDriversVer=10.0.15063.0&IsDomainJoined=0&SkypeRoomSystem=0&ServicingBranch=CB&IsRemoteDesktopSessionHost=Professional&OEMName_Uncleaned=QEMU&InstallationType=Client&AttrDataVer=297&MX_FlightIds=&PandaInstalledKey=0&OSVersion=10.0.15063.0&K7InstalledVer=0&FirmwareVersion=1.15.0-1&TrendInstalledKey=0&OSArchitecture=AMD64&DefaultUserRegion=244&UpdateManagementGroup=2",
+          "protocol": "https",
+          "method": "GET",
+          "headers": [
+            {
+              "key": "connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "if-none-match",
+              "value": "208:66A2A386B1B36267482BE4FE547B163A::2F26108933"
+            },
+            {
+              "key": "user-agent",
+              "value": "WaaSAssessment"
+            },
+            {
+              "key": "host",
+              "value": "settings-win.data.microsoft.com"
+            }
+          ],
+          "length": 0
+        },
+        "response": {
+          "version": "1.1",
+          "protocol": "https",
+          "status": 304,
+          "headers": [
+            {
+              "key": "content-length",
+              "value": "0"
+            },
+            {
+              "key": "content-type",
+              "value": "text/html;charset=utf-8"
+            },
+            {
+              "key": "etag",
+              "value": "360:66A2A386B1B36267482BE4FE547B163A::2F2612D8A2"
+            },
+            {
+              "key": "server",
+              "value": "Microsoft-HTTPAPI/2.0"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "content-security-policy",
+              "value": "script-src https://settings-sandbox.data.microsoft.com https://settings-ppe.data.microsoft.com https://settings.data.microsoft.com http://onesettings-xbox-rp.com https://settings-win.data.microsoft.com"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "date",
+              "value": "Sun, 23 Feb 2025 22:25:59 GMT"
+            }
+          ],
+          "length": 0
+        },
+        "ts": 1740349560.207323,
+        "srcip": "192.168.122.50",
+        "srcport": 49682,
+        "dstip": "20.72.205.209",
+        "dstport": 443
+      },
+      {
+        "request": {
+          "version": "1.1",
+          "url": "https://sls.update.microsoft.com/SLS/%7BE7A50285-D08D-499D-9FF8-180FDC2332BC%7D/x64/10.0.15063.0/0?CH=476&L=en-US&P=&PT=0x30&WUA=10.0.15063.0&MK=QEMU&MD=Standard+PC+(Q35+%2B+ICH9%2C+2009)",
+          "protocol": "https",
+          "method": "GET",
+          "headers": [
+            {
+              "key": "connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "accept",
+              "value": "*/*"
+            },
+            {
+              "key": "user-agent",
+              "value": "Windows-Update-Agent/10.0.10011.16384 Client-Protocol/1.58"
+            },
+            {
+              "key": "host",
+              "value": "sls.update.microsoft.com"
+            }
+          ],
+          "length": 0
+        },
+        "response": {
+          "version": "1.1",
+          "protocol": "https",
+          "status": 200,
+          "headers": [
+            {
+              "key": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "content-type",
+              "value": "application/octet-stream"
+            },
+            {
+              "key": "expires",
+              "value": "-1"
+            },
+            {
+              "key": "last-modified",
+              "value": "Mon, 01 Jan 0001 00:00:00 GMT"
+            },
+            {
+              "key": "etag",
+              "value": "\"Mx1RoJH/qEwpWfKllx7sbsl28AuERz5IYdcsvtTJcgM=_2160\""
+            },
+            {
+              "key": "ms-correlationid",
+              "value": "86c6b0cf-3e6a-421d-af31-30c0941bdb71"
+            },
+            {
+              "key": "ms-requestid",
+              "value": "ad31dfad-ab30-4b19-8dbf-1524ec74e1af"
+            },
+            {
+              "key": "ms-cv",
+              "value": "Og4SMoEIbEqfgvjj.0"
+            },
+            {
+              "key": "x-microsoft-slsclientcache",
+              "value": "2160"
+            },
+            {
+              "key": "content-disposition",
+              "value": "attachment; filename=environment.cab"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "date",
+              "value": "Sun, 23 Feb 2025 22:26:03 GMT"
+            },
+            {
+              "key": "content-length",
+              "value": "25457"
+            }
+          ],
+          "length": 25457
+        },
+        "ts": 1740349563.589256,
+        "srcip": "192.168.122.50",
+        "srcport": 49684,
+        "dstip": "52.149.20.212",
+        "dstport": 443
+      },
+      {
+        "request": {
+          "version": "1.1",
+          "url": "http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?62b448695aee504e",
+          "protocol": "http",
+          "method": "GET",
+          "headers": [
+            {
+              "key": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "key": "connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "accept",
+              "value": "*/*"
+            },
+            {
+              "key": "if-modified-since",
+              "value": "Thu, 05 Dec 2024 19:42:09 GMT"
+            },
+            {
+              "key": "if-none-match",
+              "value": "\"06cfcc54d47db1:0\""
+            },
+            {
+              "key": "user-agent",
+              "value": "Microsoft-CryptoAPI/10.0"
+            },
+            {
+              "key": "host",
+              "value": "ctldl.windowsupdate.com"
+            }
+          ],
+          "length": 0
+        },
+        "response": {
+          "version": "1.1",
+          "protocol": "http",
+          "status": 304,
+          "headers": [
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "date",
+              "value": "Sun, 23 Feb 2025 22:26:03 GMT"
+            },
+            {
+              "key": "via",
+              "value": "1.1 varnish"
+            },
+            {
+              "key": "x-varnish",
+              "value": "131086003"
+            },
+            {
+              "key": "cache-control",
+              "value": "public,max-age=900"
+            },
+            {
+              "key": "etag",
+              "value": "\"06cfcc54d47db1:0\""
+            },
+            {
+              "key": "age",
+              "value": "558"
+            }
+          ],
+          "length": 0
+        },
+        "ts": 1740349563.034664,
+        "srcip": "192.168.122.50",
+        "srcport": 49685,
+        "dstip": "199.232.214.172",
+        "dstport": 80
+      }
+    ]
+  },
+  "screenshot": [
+    {
+      "name": "8057.jpg",
+      "percentage": 31.126666666666665
+    },
+    {
+      "name": "9338.jpg",
+      "percentage": 3.5166666666666666
+    },
+    {
+      "name": "10393.jpg",
+      "percentage": 3.76
+    },
+    {
+      "name": "11521.jpg",
+      "percentage": 21.03
+    },
+    {
+      "name": "17830.jpg",
+      "percentage": 6.956666666666667
+    },
+    {
+      "name": "19917.jpg",
+      "percentage": 33.61
+    }
+  ]
+}
+--------------------
