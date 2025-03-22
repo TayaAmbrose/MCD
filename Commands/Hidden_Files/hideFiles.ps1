@@ -1,0 +1,1 @@
+attrib.exe +s "C:\\Windows\\system.ini"

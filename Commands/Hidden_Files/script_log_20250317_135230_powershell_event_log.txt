@@ -1,0 +1,2 @@
+--- PowerShell Event Log started at 3/17/2025 1:52:31 PM ---
+--- PowerShell Event Log ended at 3/17/2025 1:52:31 PM ---

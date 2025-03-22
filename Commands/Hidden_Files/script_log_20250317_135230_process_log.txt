@@ -1,0 +1,10 @@
+--- Process Log started at 3/17/2025 1:52:30 PM ---
+User: vagrant
+Machine: DC
+Script: C:\Users\vagrant\Downloads\Commands2\hiddenFiles\hideFiles.ps1
+PID (LogGetter): 5804
+Command Line: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\vagrant\Downloads\Commands2\hiddenFiles\hideFiles.ps1"
+Start Time (Script Execution): 3/17/2025 1:52:30 PM
+End Time (Script Execution): 3/17/2025 1:52:31 PM
+Exit Code: 0
+--- Process Log ended at 3/17/2025 1:52:31 PM ---
