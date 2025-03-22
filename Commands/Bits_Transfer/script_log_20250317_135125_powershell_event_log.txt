@@ -1,0 +1,17 @@
+--- PowerShell Event Log started at 3/17/2025 1:52:26 PM ---
+Event ID: 40961
+Level: Information
+Time Created: 3/17/2025 1:51:25 PM
+Message: PowerShell console is starting up
+---------------------------------------------------
+Event ID: 53504
+Level: Information
+Time Created: 3/17/2025 1:51:25 PM
+Message: Windows PowerShell has started an IPC listening thread on process: 3016 in AppDomain: DefaultAppDomain.
+---------------------------------------------------
+Event ID: 40962
+Level: Information
+Time Created: 3/17/2025 1:51:25 PM
+Message: PowerShell console is ready for user input
+---------------------------------------------------
+--- PowerShell Event Log ended at 3/17/2025 1:52:26 PM ---

