@@ -1,0 +1,249 @@
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:22:56 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="Administrator"
+ParameterBinding(Out-Default): name="InputObject"; value="alice"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 33
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 78
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:22:56.490823900Z" />
+    <EventRecordID>14075</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-daa5-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 33
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 78
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="Administrator"
+ParameterBinding(Out-Default): name="InputObject"; value="alice"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:22:56 AM
+Event ID:      4103
+Task Category: Executing Pipeline
+Level:         Information
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+CommandInvocation(ForEach-Object): "ForEach-Object"
+ParameterBinding(ForEach-Object): name="Process"; value=" $_.Properties.samaccountname "
+ParameterBinding(ForEach-Object): name="InputObject"; value="System.DirectoryServices.SearchResult"
+ParameterBinding(ForEach-Object): name="InputObject"; value="System.DirectoryServices.SearchResult"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 33
+        Command Name = ForEach-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ADListUsersFilter\ListADUsers.ps1
+        Command Path = 
+        Sequence Number = 76
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4103</EventID>
+    <Version>1</Version>
+    <Level>4</Level>
+    <Task>106</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:22:56.490745100Z" />
+    <EventRecordID>14074</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-dca5-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.6893
+        Host ID = 004f39d1-fb81-449e-86f9-a0c5767dbc8d
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.17763.6893
+        Runspace ID = b54efbff-ffda-4647-967e-8a2bf65cb867
+        Pipeline ID = 33
+        Command Name = ForEach-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\vagrant\Downloads\Commands\ADListUsersFilter\ListADUsers.ps1
+        Command Path = 
+        Sequence Number = 76
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+    <Data Name="UserData">
+    </Data>
+    <Data Name="Payload">CommandInvocation(ForEach-Object): "ForEach-Object"
+ParameterBinding(ForEach-Object): name="Process"; value=" $_.Properties.samaccountname "
+ParameterBinding(ForEach-Object): name="InputObject"; value="System.DirectoryServices.SearchResult"
+ParameterBinding(ForEach-Object): name="InputObject"; value="System.DirectoryServices.SearchResult"
+</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:22:56 AM
+Event ID:      4104
+Task Category: Execute a Remote Command
+Level:         Warning
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+Creating Scriptblock text (1 of 1):
+{ $_.Properties.samaccountname }
+
+ScriptBlock ID: a2703f13-fd47-4d0c-bb03-5f1cc6a6f702
+Path: C:\Users\vagrant\Downloads\Commands\ADListUsersFilter\ListADUsers.ps1
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4104</EventID>
+    <Version>1</Version>
+    <Level>3</Level>
+    <Task>2</Task>
+    <Opcode>15</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:22:56.488403700Z" />
+    <EventRecordID>14073</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-dca5-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="MessageNumber">1</Data>
+    <Data Name="MessageTotal">1</Data>
+    <Data Name="ScriptBlockText">{ $_.Properties.samaccountname }</Data>
+    <Data Name="ScriptBlockId">a2703f13-fd47-4d0c-bb03-5f1cc6a6f702</Data>
+    <Data Name="Path">C:\Users\vagrant\Downloads\Commands\ADListUsersFilter\ListADUsers.ps1</Data>
+  </EventData>
+</Event>
+
+Log Name:      Microsoft-Windows-PowerShell/Operational
+Source:        Microsoft-Windows-PowerShell
+Date:          2/23/2025 9:22:56 AM
+Event ID:      4104
+Task Category: Execute a Remote Command
+Level:         Warning
+Keywords:      None
+User:          SCCMLAB\vagrant
+Computer:      DC.sccm.lab
+Description:
+Creating Scriptblock text (1 of 1):
+([adsisearcher]"(&(objectCategory=person)(samaccountname=a*))").FindAll() | ForEach-Object { $_.Properties.samaccountname }
+
+ScriptBlock ID: 01f9e200-6e78-4e41-b055-105ef883eeca
+Path: C:\Users\vagrant\Downloads\Commands\ADListUsersFilter\ListADUsers.ps1
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+    <EventID>4104</EventID>
+    <Version>1</Version>
+    <Level>3</Level>
+    <Task>2</Task>
+    <Opcode>15</Opcode>
+    <Keywords>0x0</Keywords>
+    <TimeCreated SystemTime="2025-02-23T17:22:56.483277700Z" />
+    <EventRecordID>14072</EventRecordID>
+    <Correlation ActivityID="{f09e87cf-8615-0000-dba5-9ef01586db01}" />
+    <Execution ProcessID="708" ThreadID="5620" />
+    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    <Computer>DC.sccm.lab</Computer>
+    <Security UserID="S-1-5-21-1995092367-784345370-2199465104-1000" />
+  </System>
+  <EventData>
+    <Data Name="MessageNumber">1</Data>
+    <Data Name="MessageTotal">1</Data>
+    <Data Name="ScriptBlockText">([adsisearcher]"(&amp;(objectCategory=person)(samaccountname=a*))").FindAll() | ForEach-Object { $_.Properties.samaccountname }</Data>
+    <Data Name="ScriptBlockId">01f9e200-6e78-4e41-b055-105ef883eeca</Data>
+    <Data Name="Path">C:\Users\vagrant\Downloads\Commands\ADListUsersFilter\ListADUsers.ps1</Data>
+  </EventData>
+</Event>

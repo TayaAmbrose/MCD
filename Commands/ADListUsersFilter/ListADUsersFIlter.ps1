@@ -1,0 +1,1 @@
+([adsisearcher]"(&(objectCategory=person)(samaccountname=a*))").FindAll() | ForEach-Object { $_.Properties.samaccountname }
