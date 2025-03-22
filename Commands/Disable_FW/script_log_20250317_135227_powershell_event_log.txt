@@ -1,0 +1,47 @@
+--- PowerShell Event Log started at 3/17/2025 1:52:29 PM ---
+Event ID: 40961
+Level: Information
+Time Created: 3/17/2025 1:52:27 PM
+Message: PowerShell console is starting up
+---------------------------------------------------
+Event ID: 53504
+Level: Information
+Time Created: 3/17/2025 1:52:27 PM
+Message: Windows PowerShell has started an IPC listening thread on process: 4964 in AppDomain: DefaultAppDomain.
+---------------------------------------------------
+Event ID: 40962
+Level: Information
+Time Created: 3/17/2025 1:52:27 PM
+Message: PowerShell console is ready for user input
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:52:28 PM
+Message: CommandInvocation(disablefw.ps1): "disablefw.ps1"
+CommandInvocation(Out-Default): "Out-Default"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = 96977834-0606-4da4-8426-e969e2838442
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\DisableFW\disablefw.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = b2c61aa9-0b2d-4b33-b47f-2aa7941702fd
+        Pipeline ID = 1
+        Command Name = disablefw.ps1
+        Command Type = ExternalScript
+        Script Name = 
+        Command Path = C:\Users\vagrant\Downloads\Commands2\DisableFW\disablefw.ps1
+        Sequence Number = 16
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+--- PowerShell Event Log ended at 3/17/2025 1:52:29 PM ---

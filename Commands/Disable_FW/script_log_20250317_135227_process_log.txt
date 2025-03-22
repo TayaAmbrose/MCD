@@ -1,0 +1,15 @@
+--- Process Log started at 3/17/2025 1:52:27 PM ---
+User: vagrant
+Machine: DC
+Script: C:\Users\vagrant\Downloads\Commands2\DisableFW\disablefw.ps1
+PID (LogGetter): 5804
+Command Line: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\vagrant\Downloads\Commands2\DisableFW\disablefw.ps1"
+Start Time (Script Execution): 3/17/2025 1:52:27 PM
+Ok.
+Ok.
+Ok.
+Ok.
+Ok.
+End Time (Script Execution): 3/17/2025 1:52:29 PM
+Exit Code: 0
+--- Process Log ended at 3/17/2025 1:52:29 PM ---
