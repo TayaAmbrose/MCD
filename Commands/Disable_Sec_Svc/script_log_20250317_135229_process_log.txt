@@ -1,0 +1,20 @@
+--- Process Log started at 3/17/2025 1:52:29 PM ---
+User: vagrant
+Machine: DC
+Script: C:\Users\vagrant\Downloads\Commands2\disableSecSvc\disableSecSvc.ps1
+PID (LogGetter): 5804
+Command Line: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\vagrant\Downloads\Commands2\disableSecSvc\disableSecSvc.ps1"
+Start Time (Script Execution): 3/17/2025 1:52:29 PM
+ERROR: The requested pause, continue, or stop is not valid for this service.
+ERROR: More help is available by typing NET HELPMSG 2191.
+ERROR: The service name is invalid.
+ERROR: More help is available by typing NET HELPMSG 2185.
+ERROR: System error 5 has occurred.
+ERROR: Access is denied.
+ERROR: The Windows Update service is not started.
+ERROR: More help is available by typing NET HELPMSG 3521.
+ERROR: The service name is invalid.
+ERROR: More help is available by typing NET HELPMSG 2185.
+End Time (Script Execution): 3/17/2025 1:52:30 PM
+Exit Code: 0
+--- Process Log ended at 3/17/2025 1:52:30 PM ---

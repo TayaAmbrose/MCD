@@ -1,0 +1,47 @@
+--- PowerShell Event Log started at 3/17/2025 1:52:30 PM ---
+Event ID: 40961
+Level: Information
+Time Created: 3/17/2025 1:52:29 PM
+Message: PowerShell console is starting up
+---------------------------------------------------
+Event ID: 53504
+Level: Information
+Time Created: 3/17/2025 1:52:29 PM
+Message: Windows PowerShell has started an IPC listening thread on process: 5044 in AppDomain: DefaultAppDomain.
+---------------------------------------------------
+Event ID: 40962
+Level: Information
+Time Created: 3/17/2025 1:52:29 PM
+Message: PowerShell console is ready for user input
+---------------------------------------------------
+Event ID: 4103
+Level: Information
+Time Created: 3/17/2025 1:52:29 PM
+Message: CommandInvocation(disableSecSvc.ps1): "disableSecSvc.ps1"
+CommandInvocation(Out-Default): "Out-Default"
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.17763.7009
+        Host ID = e2048c2b-85fc-41e6-bef3-52e170c70b7c
+        Host Application = powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\vagrant\Downloads\Commands2\disableSecSvc\disableSecSvc.ps1
+        Engine Version = 5.1.17763.7009
+        Runspace ID = af5fc79d-f039-4be8-8e63-61eb77c83270
+        Pipeline ID = 1
+        Command Name = disableSecSvc.ps1
+        Command Type = ExternalScript
+        Script Name = 
+        Command Path = C:\Users\vagrant\Downloads\Commands2\disableSecSvc\disableSecSvc.ps1
+        Sequence Number = 16
+        User = SCCMLAB\vagrant
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:
+
+
+---------------------------------------------------
+--- PowerShell Event Log ended at 3/17/2025 1:52:30 PM ---
